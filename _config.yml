@@ -5,4 +5,10 @@ url: http://hackercouch.com
 
 markdown: kramdown
 collections:
-  - couches
+  couches:
+    output: true
+defaults:
+  - scope:
+      type: couches
+    values:
+      layout: couch
