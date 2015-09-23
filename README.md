@@ -1,8 +1,4 @@
----
-layout: page
-title: About HackerCouch
-permalink: /about/
----
+# hackercouch
 
 HackerCouch is couchsurfing for Hackers. Here's how it goes:
 
@@ -21,3 +17,16 @@ I also made a similar PR-based DNS redirect service called [lightsaber][ls] rece
 
 [gh]: https://github.com/captn3m0/hackercouch
 [ls]: https://github.com/captn3m0/lightsaber
+
+# Development
+
+HackerCouch uses Jekyll Collections, which is a feature I really like.
+Hosted on github-pages, duh.
+Builds will use travis, as soon as I get time.
+
+# LICENSE
+
+This uses Jekyll collections and the base Jekyll theme. The very little code here
+is licensed under the MIT License. However, everything under the `_couches` directory
+is licensed under the CC0 license. If you file a PR to this repo, you agree to having
+your "couch information" available under this license.
