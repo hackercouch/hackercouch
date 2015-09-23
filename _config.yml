@@ -3,6 +3,9 @@ description: CouchSurfing for Hackers
 url: http://hackercouch.com
 
 markdown: kramdown
+kramdown:
+  input: GFM
+
 collections:
   couches:
     output: true
