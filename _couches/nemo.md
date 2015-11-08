@@ -7,7 +7,6 @@ reddit: vim_vs_emacs
 city: Bangalore
 country: IN
 region: Koramangala
-site: https://captnemo.in
 ---
 
 I have a couch and an extra bed possibly available, depending on dates.
