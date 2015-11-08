@@ -13,6 +13,7 @@ exclude:
   - CNAME
   - README.md
   - Gemfile*
+  - vendor
 
 collections:
   couches:
