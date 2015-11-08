@@ -7,6 +7,26 @@ layout: default
   <h1 class="page-heading">Couchsurfing for Hackers, by Hackers</h1>
 
   <table class="post-list">
+  	<thead>
+  		<th>Hacker</th>
+  		<th>City</th>
+  		<th>Country</th>
+  		<th>Social</th>
+  		<th>Info</th>
+  	</thead>
+  	<tbody>
+  	{% for couch in site.couches %}	
+  	<tr>
+  		<td>{{couch.relative_path|remove:"_couches/"|remove_first:".md"}}</td>
+  		<td>{{couch.city}}</td>
+  		<td>{{site.data.countries[couch.country]}}</td>
+  		<td><span class="socicon socicon-twitter"></span></td>
+  	</tr>
+  	{% endfor %}
+  	</tbody>
+    
+      <!-- 
+      {{couch|json}} -->
     
   </table>
 </div>
