@@ -1,7 +1,9 @@
 ---
 github: captn3m0
 twitter: captn3m0
-contact: me@captnemo.in
+email: me@captnemo.in
+website: https://captnemo.in
+reddit: vim_vs_emacs
 city: Bangalore
 country: IN
 region: Koramangala

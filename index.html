@@ -7,26 +7,38 @@ layout: default
   <h1 class="page-heading">Couchsurfing for Hackers, by Hackers</h1>
 
   <table class="post-list">
-  	<thead>
-  		<th>Hacker</th>
-  		<th>City</th>
-  		<th>Country</th>
-  		<th>Social</th>
-  		<th>Info</th>
-  	</thead>
-  	<tbody>
-  	{% for couch in site.couches %}	
-  	<tr>
-  		<td>{{couch.relative_path|remove:"_couches/"|remove_first:".md"}}</td>
-  		<td>{{couch.city}}</td>
-  		<td>{{site.data.countries[couch.country]}}</td>
-  		<td><span class="socicon socicon-twitter"></span></td>
-  	</tr>
-  	{% endfor %}
-  	</tbody>
-    
-      <!-- 
-      {{couch|json}} -->
-    
+    <thead>
+        <th>Hacker</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Social</th>
+        <th>Info</th>
+    </thead>
+    <tbody>
+    {% for couch in site.couches %}
+    <tr>
+        <td>
+            {% assign name = (couch.relative_path|remove:"_couches/"|remove_first:".md") %}
+            <a href="{{couch.url}}" title="{{name}}">
+            {{ name }}
+            </a>
+        </td>
+        <td>{{couch.city}}</td>
+        <td>{{site.data.countries[couch.country] | downcase | capitalize}}</td>
+        {% include social.html %}
+        <td>
+            {% if page.url == '/index.html' %}
+            {{couch.content | strip_html | truncatewords:20 | remove: '...'}}
+            <a href="{{couch.url}}" title="Read More">...</a>
+            {% else %}
+            {{couch.content}}
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
   </table>
+  <div>
+  You can click on the name to see the complete info provided
+  </div>
 </div>

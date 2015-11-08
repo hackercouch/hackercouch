@@ -3,56 +3,34 @@ layout: default
 ---
 <div class="post">
 
+    {% assign name = page.name %}
+    {% unless name %}
+        {% assign name =  (page.relative_path|remove:"_couches/"|remove_first:".md") %}
+    {% endunless %}
+
     <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title">{{ name }}</h1>
     </header>
 
     <article class="post-content">
         <div>
             <strong>Location:</strong>
             <span>
-                {{% if page.region %}}
-                <span>{{page.region}}</span>
-                {{% endif %}}
-                {{% if page.city %}}
-                <span>{{page.city}}</span>
-                {{% endif %}}
-                <span>{{page.country}}</span>
+                {% capture location %}{{% if page.region %}}<span>{{page.region}} </span>{{% endif %}}{{% if page.city %}}<span>{{page.city}} </span>{{% endif %}}<span>{{site.data.countries[page.country] | downcase | capitalize}}</span>{% endcapture %}
+                <a href="https://maps.google.com/?q={{location|strip_html|url_param_escape}}">{{location}}</a>
             </span>
         </div>
-        
-    <table>
-        <thead>
-            {{% if page.github %}}
-            <th>github</th>
-            {{% endif % }}
-            {{% if page.twitter %}}
-            <th>twitter</th>
-            {{% endif % }}
-            {{% if page.contact %}}
-            <th>contact</th>
-            {{% endif % }}
-            {{% if page.site %}}
-            <th>website</th>
-            {{% endif % }}
-        </thead>
-        <tbody>
-            {{% if page.github %}}
-            <td><a href="https://github.com/{{page.github}}">{{page.github}}</a></td>
-            {{% endif %}}
-            {{% if page.twitter %}}
-            <td><a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></td>
-            {{% endif %}}
-            {{% if page.contact %}}
-            <td><a href="mailto:{{page.contact}}">{{page.contact}}</a></td>
-            {{% endif %}}
-            {{% if page.site %}}
-            <td><a href="{{page.site}}">{{page.site | replace: 'https://','' | replace: 'http://',''}}</a></td>
-            {{% endif %}}
-        </tbody>
-    </table>
+
+    <hr>
 
     {{ content }}
-    </article>
 
+    </article>
+    <div>
+        <strong>Social</strong>
+        <span>
+            {% assign couch = page %}
+            {% include social.html %}
+        </span>
+    </div>
 </div>

@@ -42,12 +42,20 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting",
-        "socicons"
+        "socicons",
+        "table"
 ;
+
+
+
+.social-links {
+  text-align: center;
+  a:hover {
+    text-decoration: none;
+  }
+}

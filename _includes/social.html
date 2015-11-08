@@ -1,0 +1,32 @@
+<td class="social-links">
+    {% if couch.twitter %}
+    <a title="@{{couch.twitter}}" href="https://twitter.com/{{couch.twitter}}">
+        <span class="socicon socicon-twitter"></span>
+    </a>
+    {% endif %}
+    {% if couch.github %}
+    <a title="github user profile" href="https://github.com/{{couch.github}}">
+        <span class="socicon socicon-github"></span>
+    </a>
+    {% endif %}
+    {% if couch.facebook %}
+    <a title="fb/{{couch.facebook}}" href="https://facebook.com/{{couch.facebook}}">
+        <span class="socicon socicon-facebook"></span>
+    </a>
+    {% endif %}
+    {% if couch.reddit %}
+    <a title="/u/{{couch.reddit}}" href="https://reddit.com/u/{{couch.reddit}}">
+        <span class="socicon socicon-reddit"></span>
+    </a>
+    {% endif %}
+    {% if couch.website %}
+    <a title="website" href="{{couch.website}}">
+        &#127760;
+    </a>
+    {% endif %}
+    {% if couch.email %}
+    <a title="Send Mail" href="mailto:{{couch.email}}">
+        <span class="socicon socicon-mail"></span>
+    </a>
+    {% endif %}
+</td>
