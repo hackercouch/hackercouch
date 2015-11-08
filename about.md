@@ -22,4 +22,4 @@ I also made a similar PR-based DNS redirect service called [lightsaber][ls] rece
 
 [gh]: https://github.com/captn3m0/hackercouch
 [ls]: https://github.com/captn3m0/lightsaber
-[fork]: https://github.com/captn3m0/hackercouch/fork "Click to Fork"
+[fork]: https://github.com/captn3m0/hackercouch "Click the Fork button"
