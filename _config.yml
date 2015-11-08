@@ -6,6 +6,14 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+exclude:
+  - .editorconfig
+  - .gitignore
+  - .travis.yml
+  - CNAME
+  - README.md
+  - Gemfile*
+
 collections:
   couches:
     output: true
