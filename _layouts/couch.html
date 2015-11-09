@@ -17,7 +17,7 @@ layout: default
             <strong>Location:</strong>
             <span>
                 {% capture location %}{{% if page.region %}}<span>{{page.region}} </span>{{% endif %}}{{% if page.city %}}<span>{{page.city}} </span>{{% endif %}}<span>{{site.data.countries[page.country] | downcase | capitalize}}</span>{% endcapture %}
-                <a href="https://maps.google.com/?q={{location|strip_html|url_param_escape}}">{{location}}</a>
+                <a href="https://nominatim.openstreetmap.org/search.php?q={{location|strip_html|strip|cgi_escape}}">{{location}}</a>
             </span>
         </div>
 
