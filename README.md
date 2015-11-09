@@ -22,7 +22,7 @@ I also made a similar PR-based DNS redirect service called [lightsaber][ls] rece
 
 HackerCouch uses Jekyll Collections, which is a feature I really like.
 Hosted on github-pages, duh.
-Builds will use travis, as soon as I get time.
+Builds use travis, and make sure that the site has proper html before its deployed
 
 # LICENSE
 
@@ -30,3 +30,5 @@ This uses Jekyll collections and the base Jekyll theme. The very little code her
 is licensed under the MIT License. However, everything under the `_couches` directory
 is licensed under the CC0 license. If you file a PR to this repo, you agree to having
 your "couch information" available under this license.
+
+The minimum required information is your nick, city and country code.
