@@ -7,8 +7,6 @@ country: IN
 region: Cooke Town
 name: Pratul Kalia
 ---
-
-```
 Hello there! 
 
 I have a couch and a single bed, so one may rest, 
@@ -19,4 +17,3 @@ Public transport is limited, but auto-rickshaws are plenty, and so are cab servi
 
 My house has open access for my cat and is also visited by other neighbourhood cats. 
 So if you're allergic to cats, you probably won't be able to stay over. Sorry about that.
-```
