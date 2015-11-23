@@ -1,9 +1,9 @@
 ---
 github: deobald
-twitter: deobal
+twitter: deobald
 email: steven@nilenso.com
-website: https://blog.deobald.ca
-facebook: https://www.facebook.com/steven.deobald
+website: http://blog.deobald.ca
+facebook: steven.deobald
 city: Bangalore
 country: IN
 region: Cooke Town
