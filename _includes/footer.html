@@ -7,6 +7,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
+          <li>{{ site.couches | size }} Hackers, {{site.couches|group_by:'country'|size}} Countries</li>
         </ul>
       </div>
 
