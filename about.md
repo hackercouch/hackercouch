@@ -10,7 +10,9 @@ file a Pull Request. More detailed instructions are [here][add].
 The idea isn't new, it has been [tried before][original] as well. The reason I'm trying this again is:
 
 - I love the idea of a Fork->PR->Merge->Publish flow with almost zero effort.
-- hackercouch.com was available.# Development
+- hackercouch.com was available.
+
+# Development
 
 HackerCouch uses Jekyll Collections, which is a feature I really like.
 Hosted on github-pages, duh.
