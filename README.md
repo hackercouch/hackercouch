@@ -8,7 +8,9 @@ HackerCouch is couchsurfing for Hackers. Here's how it goes:
 - Make sure the build passes
 - Go check hackercouch.com the next time you are travelling.
 
-The idea isn't new, it has been tried before as well. The reason I'm trying this again is:
+See [add.md](add.md) for more detailed instructions.
+
+The idea isn't new, it has been [tried before][original] as well. The reason I'm trying this again is:
 
 - I love the idea of a Fork->PR->Merge->Publish flow with almost zero effort.
 - hackercouch.com was available.
@@ -24,6 +26,11 @@ HackerCouch uses Jekyll Collections, which is a feature I really like.
 Hosted on github-pages, duh.
 Builds use travis, and make sure that the site has proper html before its deployed
 
+# Credits
+
+- The original hackercouch project: [jancborchardt/hackercouch][original]
+- [remy/mit-license](https://github.com/remy/mit-license) for the fork-PR-publish workflow.
+
 # LICENSE
 
 This uses Jekyll collections and the base Jekyll theme. The very little code here
@@ -32,3 +39,6 @@ is licensed under the CC0 license. If you file a PR to this repo, you agree to h
 your "couch information" available under this license.
 
 The minimum required information is your nick, city and country code.
+
+
+[original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
