@@ -24,7 +24,8 @@ layout: default
             </a>
         </td>
         <td>{{couch.city}}</td>
-        <td>{{site.data.countries[couch.country] | downcase | capitalize}}</td>
+        {% assign country = couch.country | upcase %}
+        <td>{{site.data.countries[country] | downcase | capitalize}}</td>
         {% include social.html %}
         <td>
             {% if page.url == '/index.html' %}
