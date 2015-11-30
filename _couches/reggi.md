@@ -2,7 +2,7 @@
 github: reggi
 twitter: thomasreggi
 email: thomas@reggi.com
-website: https://reggi.com
+website: http://reggi.com
 facebook: thomasreggi
 reddit: thomasreggi
 city: brooklyn
