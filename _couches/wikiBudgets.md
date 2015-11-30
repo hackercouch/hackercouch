@@ -1,5 +1,5 @@
 ---
-twitter: @wikiBudgets
+twitter: wikiBudgets
 email: daniel@wikiBudgets.org
 website: https://wikiBudgets.org
 city: Prague #required
