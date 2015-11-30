@@ -43,7 +43,8 @@ If you do not provide a `name`, the filename will be used as one.
 
 Travis build runs html-proofer which checks the validity of all http links,
 so they need to be working fine. The country code must also be correct as per
-the ISO-3166 list.
+the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) list.
+It should be a 2 character country code.
 
 #### Merge
 
