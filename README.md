@@ -1,4 +1,4 @@
-# hackercouch
+# Hackercouch
 
 HackerCouch is couchsurfing for Hackers. Here's how it goes:
 
@@ -22,9 +22,21 @@ I also made a similar PR-based DNS redirect service called [lightsaber][ls] rece
 
 # Development
 
-HackerCouch uses Jekyll Collections, which is a feature I really like.
-Hosted on github-pages, duh.
-Builds use travis, and make sure that the site has proper html before its deployed
+- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections, which is a feature I really like.
+- Hosted on Github pages, duh.
+- Builds use Travis, and make sure that the site has proper html before its deployed.
+
+### Quickstart:
+```bash
+gem install bundler
+bundle install
+jekyll serve
+```
+
+And open [http://localhost:4000](http://localhost:4000) in your browser.
+
+### Troubleshooting
+- If your bundle fails due Nokogiri and you're on OSX, try running this first: `xcode-select --install`
 
 # Credits
 
