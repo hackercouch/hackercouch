@@ -26,7 +26,7 @@ layout: default
         <td>{{couch.city}}</td>
         {% assign country = couch.country | upcase %}
         <td>{{site.data.countries[country] | downcase | capitalize}}</td>
-        {% include social.html %}
+        <td>{% include social.html tooltip-direction="e" %}</td>
         <td>
             {% if page.url == '/index.html' %}
             {{couch.content | strip_html | truncatewords:20 | remove: '...'}}

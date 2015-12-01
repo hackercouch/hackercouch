@@ -1,0 +1,30 @@
+// PNG icons for other hospex sites
+
+$hospex-icon-size: 19px;
+
+[class^="hospex-icon-"], [class*="hospex-icon-"] {
+  text-indent: -9999px;
+  display: block;
+  float: left;
+  speak: none;
+  width: $hospex-icon-size;
+  height: $hospex-icon-size;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: $hospex-icon-size $hospex-icon-size;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  &:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    text-decoration: none;
+  }
+}
+.hospex-icon-bewelcome { @include background-image-retina('/img/icon-bewelcome.png', '/img/icon-bewelcome@2x.png', $hospex-icon-size, $hospex-icon-size); }
+.hospex-icon-trustroots { @include background-image-retina('/img/icon-trustroots.png', '/img/icon-trustroots@2x.png', $hospex-icon-size, $hospex-icon-size); }
+.hospex-icon-couchsurfing { @include background-image-retina('/img/icon-couchsurfing.png', '/img/icon-couchsurfing@2x.png', $hospex-icon-size, $hospex-icon-size); }
+.hospex-icon-warmshowers { @include background-image-retina('/img/icon-warmshowers.png', '/img/icon-warmshowers@2x.png', $hospex-icon-size, $hospex-icon-size); }
+.hospex-icon-trustroots { background-image: url(/img/icon-trustroots.svg); }
