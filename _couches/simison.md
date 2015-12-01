@@ -5,6 +5,10 @@ email: mikael@ihminen.org
 website: http://www.mikaelkorpela.fi/
 facebook: mikael.korpela
 reddit: simison
+couchsurfing: simison
+bewelcome: mikael
+trustroots: mikael
+warmshowers: 41473
 city: Vilnius
 country: LT
 name: Mikael Korpela

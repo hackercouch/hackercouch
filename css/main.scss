@@ -44,19 +44,30 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "mixins/retina",
+        "mixins/tipsy",
         "base",
         "layout",
         "syntax-highlighting",
         "socicons",
+        "hospex-icons",
         "table",
-        "btn"
+        "btn",
+        "tooltip"
 ;
 
 
 
 .social-links {
+  font-size: 19px;
   text-align: center;
-  a:hover {
-    text-decoration: none;
+  a {
+    color: #444;
+    transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    &:hover {
+      text-decoration: none;
+      color: $brand-color;
+    }
   }
 }

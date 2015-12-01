@@ -1,0 +1,12 @@
+// Tooltips!
+// Using mixins/_tipsy.scss
+// See docs: https://github.com/dangvanthanh/tipsy.sass
+
+.tipsy--nw { @include tipsy(nw, #34495e, 5px, 0);  }
+.tipsy--n  { @include tipsy(n, #34495e, 5px, 3px); }
+.tipsy--ne { @include tipsy(ne, #34495e, 5px, 0);  }
+.tipsy--e  { @include tipsy(e, #34495e, 5px, 3px); }
+.tipsy--se { @include tipsy(se, #34495e, 5px, 0);  }
+.tipsy--s  { @include tipsy(s, #34495e, 5px, 3px); }
+.tipsy--sw { @include tipsy(sw, #34495e, 5px, 0);  }
+.tipsy--w  { @include tipsy(w, #34495e, 5px, 3px); }

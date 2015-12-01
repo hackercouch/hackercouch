@@ -13,16 +13,20 @@ layout: page
 
 ```md
 ---
-github: github_username
-twitter: twitter_username
-email: email_address #required
-website: https://your-website.com
-facebook: your_facebook_username
-reddit: reddit_handle
+name: Your Name #optional
 city: your_city #required
 country: ISO-3166 2 character country code #required
 region: region in your city #optional
-name: Your Name #optional
+email: email_address #required
+github: github_username
+twitter: twitter_username
+website: https://your-website.com
+facebook: your_facebook_username
+reddit: reddit_handle
+couchsurfing: couchsurfing_username
+bewelcome: bewelcome_username
+trustroots: trustroots_username
+warmshowers: warmshowers_user_id
 ---
 
 Extra info you might want to provide about your couch.

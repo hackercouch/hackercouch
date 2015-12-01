@@ -1,0 +1,12 @@
+// Retina images
+// Modified from https://gist.github.com/zethussuen/5389206
+@mixin background-image-retina($file, $file2x, $width, $height) {
+  background-image: url($file);
+  background-size: $width $height;
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 144dpi) {
+    & {
+      background-image: url($file2x);
+      background-size: $width $height;
+    }
+  }
+}
