@@ -3,7 +3,7 @@ github: akimc
 twitter: akimqc
 email: grand.requin.blanc+hackercouch@gmail.com
 city: Quebec City
-country: CAN
+country: CA
 region: St-Nicolas
 name: Akim Couture
 ---
