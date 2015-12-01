@@ -30,7 +30,12 @@
     </a>
     {% endif %}
     {% if couch.warmshowers %}
-    <a data-tipsy="Warmshowers" class="tipsy--{{ include.tooltip-direction }}" href="https://www.warmshowers.org/user/{{couch.warmshowers}}">
+    {% comment %}
+     Tell CI tests to ignore this link using `data-proofer-ignore` attribute.
+     It returns 403 (forbidden) for unauthenticated users (that's you, Jekyll!) and thus fails tests.
+     https://github.com/gjtorikian/html-proofer#ignoring-content
+    {% endcomment %}    
+    <a data-tipsy="Warmshowers" class="tipsy--{{ include.tooltip-direction }}" href="https://www.warmshowers.org/user/{{couch.warmshowers}}" data-proofer-ignore>
         <span class="hospex-icon-warmshowers"></span>
     </a>
     {% endif %}
