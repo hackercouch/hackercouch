@@ -31,7 +31,7 @@ I also made a similar PR-based DNS redirect service called [lightsaber][ls] rece
 . ./_script/setup-env.sh
 gem install bundler
 bundle install
-jekyll serve
+jekyll serve --watch
 ```
 
 And open [http://localhost:4000](http://localhost:4000) in your browser.
