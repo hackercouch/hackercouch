@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+# Make sure all _couches have sane filenames.
+badcouches=$(find ./_couches -type f -not -name \*.md)
+if [ ! -z ${badcouches} ]; then
+	for c in "${badcouches}"; do
+		echo "$c: couch should be named foo.md"
+	done
+	false
+fi
+
 bundle exec jekyll doctor
 bundle exec jekyll build
 bundle exec htmlproof ./_site/
