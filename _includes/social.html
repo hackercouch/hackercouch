@@ -1,57 +1,57 @@
 <span class="social-links">
-    {% if couch.twitter %}
-    <a data-tipsy="Twitter@{{couch.twitter}}" class="tipsy--{{ include.tooltip-direction }}" href="https://twitter.com/{{couch.twitter}}">
-        <span class="socicon socicon-twitter"></span>
-    </a>
-    {% endif %}
-    {% if couch.github %}
-    <a data-tipsy="Github" class="tipsy--{{ include.tooltip-direction }}" href="https://github.com/{{couch.github}}">
-        <span class="socicon socicon-github"></span>
-    </a>
-    {% endif %}
-    {% if couch.facebook %}
-    <a data-tipsy="Facebook" class="tipsy--{{ include.tooltip-direction }}" href="https://facebook.com/{{couch.facebook}}">
-        <span class="socicon socicon-facebook"></span>
-    </a>
-    {% endif %}
-    {% if couch.reddit %}
-    <a data-tipsy="Reddit/u/{{couch.reddit}}" class="tipsy--{{ include.tooltip-direction }}" href="https://reddit.com/u/{{couch.reddit}}">
-        <span class="socicon socicon-reddit"></span>
-    </a>
-    {% endif %}
-    {% if couch.website %}
-    <a data-tipsy="Website" class="tipsy--{{ include.tooltip-direction }}"href="{{couch.website}}">
-        &#127760;
-    </a>
-    {% endif %}
-    {% if couch.couchsurfing %}
-    <a data-tipsy="Couchsurfing" class="tipsy--{{ include.tooltip-direction }}" href="https://www.couchsurfing.com/people/{{couch.couchsurfing}}">
-        <span class="hospex-icon-couchsurfing"></span>
-    </a>
-    {% endif %}
-    {% if couch.warmshowers %}
-    {% comment %}
-     Tell CI tests to ignore this link using `data-proofer-ignore` attribute.
-     It returns 403 (forbidden) for unauthenticated users (that's you, Jekyll!) and thus fails tests.
-     https://github.com/gjtorikian/html-proofer#ignoring-content
-    {% endcomment %}    
-    <a data-tipsy="Warmshowers" class="tipsy--{{ include.tooltip-direction }}" href="https://www.warmshowers.org/user/{{couch.warmshowers}}" data-proofer-ignore>
-        <span class="hospex-icon-warmshowers"></span>
-    </a>
-    {% endif %}
-    {% if couch.bewelcome %}
-    <a data-tipsy="BeWelcome" class="tipsy--{{ include.tooltip-direction }}" href="http://www.bewelcome.org/members/{{couch.bewelcome}}">
-        <span class="hospex-icon-bewelcome"></span>
-    </a>
-    {% endif %}
-    {% if couch.trustroots %}
-    <a data-tipsy="Trustroots" class="tipsy--{{ include.tooltip-direction }}" href="https://www.trustroots.org/profile/{{couch.trustroots}}">
-        <span class="hospex-icon-trustroots"></span>
-    </a>
-    {% endif %}
-    {% if couch.email %}
-    <a data-tipsy="Send Mail" class="tipsy--{{ include.tooltip-direction }}" href="mailto:{{couch.email}}">
-        <span class="socicon socicon-mail"></span>
-    </a>
-    {% endif %}
+  {% if couch.twitter %}
+  <a data-tipsy="Twitter@{{couch.twitter}}" class="tipsy--{{ include.tooltip-direction }}" href="https://twitter.com/{{couch.twitter}}">
+    <span class="socicon socicon-twitter"></span>
+  </a>
+  {% endif %}
+  {% if couch.github %}
+  <a data-tipsy="Github" class="tipsy--{{ include.tooltip-direction }}" href="https://github.com/{{couch.github}}">
+    <span class="socicon socicon-github"></span>
+  </a>
+  {% endif %}
+  {% if couch.facebook %}
+  <a data-tipsy="Facebook" class="tipsy--{{ include.tooltip-direction }}" href="https://facebook.com/{{couch.facebook}}">
+    <span class="socicon socicon-facebook"></span>
+  </a>
+  {% endif %}
+  {% if couch.reddit %}
+  <a data-tipsy="Reddit/u/{{couch.reddit}}" class="tipsy--{{ include.tooltip-direction }}" href="https://reddit.com/u/{{couch.reddit}}">
+    <span class="socicon socicon-reddit"></span>
+  </a>
+  {% endif %}
+  {% if couch.website %}
+  <a data-tipsy="Website" class="tipsy--{{ include.tooltip-direction }}"href="{{couch.website}}">
+    &#127760;
+  </a>
+  {% endif %}
+  {% if couch.couchsurfing %}
+  <a data-tipsy="Couchsurfing" class="tipsy--{{ include.tooltip-direction }}" href="https://www.couchsurfing.com/people/{{couch.couchsurfing}}">
+    <span class="hospex-icon-couchsurfing"></span>
+  </a>
+  {% endif %}
+  {% if couch.warmshowers %}
+  {% comment %}
+   Tell CI tests to ignore this link using `data-proofer-ignore` attribute.
+   It returns 403 (forbidden) for unauthenticated users (that's you, Jekyll!) and thus fails tests.
+   https://github.com/gjtorikian/html-proofer#ignoring-content
+  {% endcomment %}    
+  <a data-tipsy="Warmshowers" class="tipsy--{{ include.tooltip-direction }}" href="https://www.warmshowers.org/user/{{couch.warmshowers}}" data-proofer-ignore>
+    <span class="hospex-icon-warmshowers"></span>
+  </a>
+  {% endif %}
+  {% if couch.bewelcome %}
+  <a data-tipsy="BeWelcome" class="tipsy--{{ include.tooltip-direction }}" href="http://www.bewelcome.org/members/{{couch.bewelcome}}">
+    <span class="hospex-icon-bewelcome"></span>
+  </a>
+  {% endif %}
+  {% if couch.trustroots %}
+  <a data-tipsy="Trustroots" class="tipsy--{{ include.tooltip-direction }}" href="https://www.trustroots.org/profile/{{couch.trustroots}}">
+    <span class="hospex-icon-trustroots"></span>
+  </a>
+  {% endif %}
+  {% if couch.email %}
+  <a data-tipsy="Send Mail" class="tipsy--{{ include.tooltip-direction }}" href="mailto:{{couch.email}}">
+    <span class="socicon socicon-mail"></span>
+  </a>
+  {% endif %}
 </span>
