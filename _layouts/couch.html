@@ -9,6 +9,7 @@ layout: default
     {% endunless %}
 
     <header class="post-header">
+        <img src="https://www.gravatar.com/avatar/{{ email | remove: ' ' | strip_newlines | downcase | md5 }}" alt="{{ name }}" class="post-avatar" />
         <h1 class="post-title">{{ name }}</h1>
     </header>
 
