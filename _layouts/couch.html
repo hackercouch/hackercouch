@@ -9,7 +9,7 @@ layout: default
     {% endunless %}
 
     <header class="post-header">
-        <a href="{{page.email|to_gravatar}}"><img src="{{page.email|to_gravatar}}" alt="{{ name }}" class="post-avatar" /></a>
+        <a href="{{page.email|to_gravatar:200}}"><img src="{{page.email|to_gravatar}}" alt="{{ name }}" class="post-avatar" /></a>
         <h1 class="post-title">{{ name }}</h1>
     </header>
 
