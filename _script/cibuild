@@ -10,6 +10,10 @@ if [ ! -z ${badcouches} ]; then
 	false
 fi
 
+# Create the json collection
+cp -r _couches/ _json
+
+# Run jekyll
 bundle exec jekyll doctor
 bundle exec jekyll build
 bundle exec htmlproof ./_site/
