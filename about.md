@@ -4,19 +4,22 @@ title: About
 permalink: /about/
 ---
 
-HackerCouch is couchsurfing for Hackers. To pledge your couch, you must
+HackerCouch is "Hospitality for Hackers". To pledge your couch, you must
 file a Pull Request. More detailed instructions are [here][add].
 
-The idea isn't new, it has been [tried before][original] as well. The reason I'm trying this again is:
+The idea isn't new, it has been [tried before][original] as well. The reason we are trying this again is:
 
-- I love the idea of a Fork->PR->Merge->Publish flow with almost zero effort.
-- hackercouch.com was available.
+- The idea of a Fork->PR->Merge->Publish flow with almost zero effort
+- Filing a pull request is a great filter for hackers
+- hackercouch.com was available
+- [This comment][comment] by @sirupsen on HN
 
 # Development
 
-HackerCouch uses Jekyll Collections, which is a feature I really like.
-Hosted on github-pages, duh.
-Builds use travis, and make sure that the site has proper html before its deployed
+- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections heavily
+- Hosted on Github Pages, duh.
+- Builds use Travis, and make sure that the site has proper html before its deployed
+- `html-proofer` for html linting + link checks
 
 # Credits
 
@@ -34,5 +37,5 @@ The minimum required information is your nick, city and country code.
 
 
 [original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
-[gh]: https://github.com/captn3m0/hackercouch
-[add]: /add.html
+[gh]: https://github.com/hackercouch/hackercouch
+[comment]: https://news.ycombinator.com/item?id=1842383 "hackercouch.com, anyone?"

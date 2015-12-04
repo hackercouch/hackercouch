@@ -1,32 +1,31 @@
 # hackercouch
 
-HackerCouch is couchsurfing for Hackers. Here's how it goes:
+HackerCouch is "Hospitality for Hackers". Here's how it goes:
 
 - Fork this repo
 - Add your own markdown file with your nick (perhaps twitter/github handle?) in the `_couches` directory
 - You file a Pull Request on [github][gh]
 - Make sure the build passes
-- Go check hackercouch.com the next time you are travelling.
+- Go check [hackercouch.com](https://hackercouch.com) the next time you are travelling.
 
 See [add.md](add.md) for more detailed instructions.
 
-The idea isn't new, it has been [tried before][original] as well. The reason I'm trying this again is:
+The idea isn't new, it has been [tried before][original] as well. The reason we are trying this again is:
 
-- I love the idea of a Fork->PR->Merge->Publish flow with almost zero effort.
-- hackercouch.com was available.
-
-I also made a similar PR-based DNS redirect service called [lightsaber][ls] recently.
-
-[gh]: https://github.com/captn3m0/hackercouch
-[ls]: https://github.com/captn3m0/lightsaber
+- The idea of a Fork->PR->Merge->Publish flow with almost zero effort
+- Filing a pull request is a great filter for hackers
+- hackercouch.com was available
+- [This comment][comment] by @sirupsen on HN
 
 # Development
 
-- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections, which is a feature I really like.
-- Hosted on Github pages, duh.
-- Builds use Travis, and make sure that the site has proper html before its deployed.
+- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections heavily
+- Hosted on Github Pages, duh.
+- Builds use Travis, and make sure that the site has proper html before its deployed
+- `html-proofer` for html linting + link checks
 
-### Quickstart:
+### Quickstart
+
 ```bash
 . ./_script/setup-env.sh
 gem install bundler
@@ -34,9 +33,10 @@ bundle install
 jekyll serve --watch
 ```
 
-And open [http://localhost:4000](http://localhost:4000) in your browser.
+And open <http://localhost:4000> in your browser.
 
 ### Troubleshooting
+
 - If your bundle fails due Nokogiri and you're on OSX, try running this first: `xcode-select --install`
 
 # Credits
@@ -53,5 +53,6 @@ your "couch information" available under this license.
 
 The minimum required information is your nick, city and country code.
 
-
 [original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
+[gh]: https://github.com/hackercouch/hackercouch
+[comment]: https://news.ycombinator.com/item?id=1842383 "hackercouch.com, anyone?"
