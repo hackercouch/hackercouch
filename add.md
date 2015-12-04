@@ -15,7 +15,7 @@ layout: page
 ---
 name: Your Name #optional
 city: your_city #required
-country: ISO-3166 2 character country code #required
+country: ISO 3166-1 alpha-2 country code (2 characters, uppercase) #required
 region: region in your city #optional
 email: email_address #required
 github: github_username
