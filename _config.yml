@@ -1,5 +1,5 @@
-title: HackerCouch
-description: Hospitality for Hackers
+title: Hackercouch
+description: Hospitality for Hackers, by Hackers.
 url: https://hackercouch.com
 
 markdown: kramdown
@@ -18,8 +18,17 @@ exclude:
 collections:
   couches:
     output: true
+  # The json collection is a symlink
+  # to the _couches collection
+  json:
+    output: true
+    permalink: /couches/:path.json
 defaults:
   - scope:
       type: couches
     values:
       layout: couch
+  - scope:
+      type: json
+    values:
+      layout: json
