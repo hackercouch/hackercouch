@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
-set -e # halt script on error
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
 
 # Make sure all _couches have sane filenames.
 badcouches=$(find ./_couches -type f -not -name \*.md)
@@ -17,3 +18,5 @@ cp -r _couches/ _json
 bundle exec jekyll doctor
 bundle exec jekyll build
 bundle exec htmlproof ./_site/
+
+. ./_script/deploy.sh
