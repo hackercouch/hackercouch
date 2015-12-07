@@ -8,7 +8,7 @@ github: eliabieri
 twitter: eliabieri
 ---
 
-Extra info you might want to provide about your couch.
-Whether you have internet connectivity, and so on.
+I live 30 minutes away from Bern, the capital city of Switzerland.
+Feel free to be my guest.
 
 **Note**: This accepts markdown
