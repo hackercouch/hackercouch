@@ -3,5 +3,7 @@ layout: null
 ---
 [
 {% for couch in site.couches %}{% assign c = couch|drop_key:'output' | drop_key:'content'|drop_key: 'collection' | drop_key: 'layout'|drop_key: 'path' %}
-  {{c|to_json}}{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
+  {% assign json = c.url | remove_first:'.html' |append:'.json'%}
+  {{c|add_to_hash:'json',json|to_json}}{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
+  }
 ]

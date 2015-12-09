@@ -35,4 +35,11 @@ layout: default
             {% include social.html tooltip-direction="s" %}
         </span>
     </div>
+
+    <p>
+    This couch information is available via our API at
+    <a href="{{page.url | remove_first:'.html'}}.json">
+        {{page.url | remove_first:'.html'}}.json
+    </a>
+    </p>
 </div>
