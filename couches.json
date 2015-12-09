@@ -3,5 +3,5 @@ layout: null
 ---
 [
 {% for couch in site.couches %}{% assign c = couch|drop_key:'output' | drop_key:'content'|drop_key: 'collection' | drop_key: 'layout'|drop_key: 'path' %}
-  {{c|json}}{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
+  {{c|to_json}}{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
 ]
