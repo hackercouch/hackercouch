@@ -15,7 +15,7 @@ trustroots: chreekat
 warmshowers: 26423
 ---
 
-* PGP key: (0x20068bfb)[https://keybase.io/chreekat]
+* PGP key: [0x20068bfb](https://keybase.io/chreekat)
 * Freenode: [chreekat](http://ircbrowse.net/nick/chreekat) (you might have guessed)
 
 I am a Haskell and web developer, pedal tramp, letter writer, and hill
