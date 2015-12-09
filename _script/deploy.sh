@@ -2,7 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-if ([ $TRAVIS_BRANCH == "plugins" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
+if ([ $TRAVIS_BRANCH == "plugins" ])
 then
 
   # go to the out directory and create a *new* Git repo
