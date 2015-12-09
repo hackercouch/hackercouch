@@ -5,7 +5,7 @@ email: kevin.mcalear@gmail.com
 website: http://kevinmcalear.com/
 facebook: KPMcAlear
 city: Seattle
-country: USA
+country: US
 name: Kevin & Sarah McAlear
 ---
 
