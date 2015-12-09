@@ -5,6 +5,10 @@ IFS=$'\n\t'
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
 
+  # Copy the CNAME and the README
+  cp CNAME _site/
+  cp README.md _site/
+
   # go to the out directory and create a *new* Git repo
   cd _site
 
