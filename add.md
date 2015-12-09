@@ -4,7 +4,6 @@ layout: page
 ---
 
 1. Fork [this repo][fork]
-2. Switch to a different branch (not `gh-pages`).
 2. Create a file in the `_couches` directory called NICK.md. Use the basic template provided below
 3. Commit
 4. File a Pull Request
@@ -20,7 +19,7 @@ region: region in your city #optional
 email: email_address #required
 github: github_username
 twitter: twitter_username
-website: https://your-website.com
+website: http://your-website.com
 facebook: your_facebook_username
 reddit: reddit_handle
 couchsurfing: couchsurfing_username
@@ -50,9 +49,14 @@ so they need to be working fine. The country code must also be correct as per
 the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) list.
 It should be a 2 character country code.
 
+Once a build passes (and the branch is master), travis will auto-commit
+and push the compiled site to the `gh-pages` branch.
+
 #### Merge
 
 Once you have filed a Pull-Request, I will merge your commit and your
-listing will be live on hackercouch.com.
+listing will be live on hackercouch.com. `master` contains the latest
+source for the website, and your pull requests must use `master` as the base.
+`gh-pages` is automatically pushed every time a new commit is made on master.
 
 [fork]: https://github.com/captn3m0/hackercouch "Click the Fork button"

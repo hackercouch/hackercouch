@@ -9,8 +9,9 @@ script: ./_script/cibuild
 
 # branch whitelist, only for GitHub Pages
 branches:
-  only:
-  - master     # test the gh-pages branch
+  except:
+  # gh-pages is automatically committed
+  - gh-pages
 
 env:
   global:
