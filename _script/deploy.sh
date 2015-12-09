@@ -2,11 +2,11 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-if ([ $TRAVIS_BRANCH == "plugins" ])
-then
+#if ([ $TRAVIS_BRANCH == "plugins" ])
+#then
 
   # go to the out directory and create a *new* Git repo
-  cd __site
+  cd _site
 
   git init
 
@@ -25,6 +25,6 @@ then
   # /dev/null to hide any sensitive credential data that might otherwise be exposed.
   git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:compiled > /dev/null 2>&1
   echo 'Build successful, deployed to gh-pages.'
-else
+#else
   echo "Build successful, but not deploying!"
-fi
+#fi
