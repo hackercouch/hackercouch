@@ -14,19 +14,19 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 - hackercouch.com was available
 - [This comment][comment] by @sirupsen on HN
 
-# Development
+### Development
 
 - HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections heavily
 - Hosted on Github Pages, duh.
 - Builds use Travis, and make sure that the site has proper html before its deployed
 - `html-proofer` for html linting + link checks
 
-# Credits
+### Credits
 
 - The original hackercouch project: [jancborchardt/hackercouch][original]
 - [remy/mit-license](https://github.com/remy/mit-license) for the fork-PR-publish workflow.
 
-# LICENSE
+### License
 
 This uses Jekyll collections and the base Jekyll theme. The very little code here
 is licensed under the MIT License. However, everything under the `_couches` directory

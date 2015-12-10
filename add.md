@@ -42,6 +42,8 @@ Note that only these fields are required:
 
 If you do not provide a `name`, the filename will be used as one.
 
+We pull your avatar from [Gravatar.com](https://gravatar.com/)
+
 ### Build
 
 Travis build runs html-proofer which checks the validity of all http links,
@@ -59,4 +61,4 @@ listing will be live on hackercouch.com. `master` contains the latest
 source for the website, and your pull requests must use `master` as the base.
 `gh-pages` is automatically pushed every time a new commit is made on master.
 
-[fork]: https://github.com/captn3m0/hackercouch "Click the Fork button"
+[fork]: https://github.com/hackercouch/hackercouch "Click the Fork button"

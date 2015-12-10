@@ -3,8 +3,12 @@ title: Related Projects
 layout: page
 ---
 
-- [jancborchardt/hackercouch][original] - The original hackercouch project
-- [totalism.org/alike](http://totalism.org/alike "Similar Initiatives") - Similar Initiatives
-- [Adopt a hacker](http://www.adoptahacker.com/index.php)
+- [jancborchardt/hackercouch](https://github.com/jancborchardt/hackercouch) — The original hackercouch project
+- [totalism.org/alike](http://totalism.org/alike "Similar Initiatives") — Similar Initiatives
+- [Adopt a hacker](http://www.adoptahacker.com/)
 
-[original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
+#### Other hospitality networks
+- [Couchsurfing.com](https://www.couchsurfing.com/)
+- [Warmshowers.org](https://www.warmshowers.org/) — For cyclists
+- [Bewelcome.org](https://www.bewelcome.org/)
+- [Trustroots.org](https://www.trustroots.org/)
