@@ -1,6 +1,7 @@
 ---
 title: How to add your couch
 layout: page
+permalink: /add/
 ---
 
 1. Fork [this repo][fork]
