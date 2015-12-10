@@ -1,45 +1,56 @@
 ---
 layout: default
+body_id: couch
 ---
-<div class="post">
+{% assign name = page.name %}
+{% unless name %}
+  {% assign name =  (page.relative_path|remove:"_couches/"|remove_first:".md") %}
+{% endunless %}
 
-    {% assign name = page.name %}
-    {% unless name %}
-        {% assign name =  (page.relative_path|remove:"_couches/"|remove_first:".md") %}
-    {% endunless %}
+{% include header.html %}
 
-    <header class="post-header">
-        <a href="{{page.email|to_gravatar:200}}"><img src="{{page.email|to_gravatar}}" alt="{{ name }}" class="post-avatar" /></a>
-        <h1 class="post-title">{{ name }}</h1>
-    </header>
+<article class="container">
+  <div class="section">
 
-    <article class="post-content">
-        <div>
-            <strong>Location:</strong>
-            <span>
-                {% assign country = page.country | upcase %}
-                {% capture location %}{{% if page.region %}}<span>{{page.region}} </span>{{% endif %}}{{% if page.city %}}<span>{{page.city}} </span>{{% endif %}}<span>{{site.data.countries[country] | downcase | capitalize}}</span>{% endcapture %}
-                <a href="https://nominatim.openstreetmap.org/search.php?q={{location|strip_html|strip|cgi_escape}}">{{location}}</a>
-            </span>
+    <div class="row">
+      <aside class="col s12 m4">
+        <a href="{{page.email|to_gravatar:600}}"><img src="{{page.email|to_gravatar:400}}" alt="{{ name }}" class="couch-avatar circle" /></a>
+
+        {% assign couch = page %}
+        {% include social.html tooltip-direction="e" %}
+
+        <p class="couch-api">
+          <hr/>
+          This couch information is available via our API at
+          <a href="{{page.url | remove_first:'.html'}}.json" type="application/json" class="font-monospace">
+            {{page.url | remove_first:'.html'}}.json
+          </a>
+        </p>
+
+      </aside>
+      <div class="col s12 m8">
+
+      <header class="row">
+        <div class="col s6">
+          <h4>{{ name }}</h4>
         </div>
+        <div class="col s6 right-align">
+          <span class="couch-location">
+            {% assign country = page.country | upcase %}
+            {% capture location %}{{% if page.region %}}<span>{{page.region}} </span>{{% endif %}}{{% if page.city %}}<span>{{page.city}} </span>{{% endif %}}<span>{{site.data.countries[country] | downcase | capitalize}}</span>{% endcapture %}
+            <a href="https://nominatim.openstreetmap.org/search.php?q={{location|strip_html|strip|cgi_escape}}">{{location}}</a>
+          </span>
+        </div>
+      </header>
 
-    <hr>
+      <hr>
 
-    {{ content }}
+      {{ content }}
 
-    </article>
-    <div>
-        <strong>Social</strong>
-        <span>
-            {% assign couch = page %}
-            {% include social.html tooltip-direction="s" %}
-        </span>
+      </div>
     </div>
 
-    <p>
-    This couch information is available via our API at
-    <a href="{{page.url | remove_first:'.html'}}.json">
-        {{page.url | remove_first:'.html'}}.json
-    </a>
-    </p>
-</div>
+  </div>
+</article>
+
+{% include footer.html %}

@@ -1,0 +1,18 @@
+<div class="container statistics">
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m4 center">
+        <span class="statistics-value">{{ site.couches | size }}</span>
+        <span class="statistics-label">Hackers</span>
+      </div>
+      <div class="col s12 m4 center">
+        <span class="statistics-value">{{site.couches|group_by:'city'|size}}</span>
+        <span class="statistics-label">Cities</span>
+      </div>
+      <div class="col s12 m4 center">
+        <span class="statistics-value">{{site.couches|group_by:'country'|size}}</span>
+        <span class="statistics-label">Countries</span>
+      </div>
+    </div>
+  </div>
+</div>

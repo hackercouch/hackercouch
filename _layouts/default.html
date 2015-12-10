@@ -3,18 +3,15 @@
 
   {% include head.html %}
 
+  {% if page.page_id %}
+  <body id="{{ page.page_id }}">
+  {% else %}
   <body>
+  {% endif %}
 
-    {% include header.html %}
+    {{ content }}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
+    {% include js.html %}
   </body>
 
 </html>

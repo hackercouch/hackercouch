@@ -1,33 +1,23 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li>{{ site.couches | size }} Hackers, {{site.couches|group_by:'country'|size}} Countries</li>
-        </ul>
+<footer class="page-footer purple">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <span class="grey-text text-lighten-4">
+          <strong>{{ site.title }}</strong> — {{ site.description }}
+        </span>
       </div>
-
-      <div class="footer-col  footer-col-1">
-        <ul class="social-media-list">
-          <li>
-            <span class="socicon socicon-github">
-            </span>
-            <a href="https://github.com/hackercouch/hackercouch">
-                <span class="username">source</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-1">
-        <p class="text">{{ site.description }}</p>
+      <div class="col l6 s12 right-align">
+        <a href="https://github.com/hackercouch/hackercouch" class="white-text">
+          <span class="socicon socicon-github"></span> Source
+        </a>
       </div>
     </div>
-
   </div>
-
+  <div class="footer-copyright">
+    <div class="container">
+      <span class="purple-text text-lighten-3">
+        We also serve all the information over our API at <a href="/couches.json" type="application/json" class="font-monospace purple-text text-lighten-5">/couches.json</code></a> and <span class="font-monospace purple-text text-lighten-5">/couches/[name].json</span>
+      </span>
+    </div>
+  </div>
 </footer>

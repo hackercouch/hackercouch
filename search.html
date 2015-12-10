@@ -1,0 +1,34 @@
+---
+layout: list
+permalink: /search/
+page_id: search
+---
+
+<ul class="collection z-depth-1">
+
+  {% for couch in site.couches %}
+    {% assign name = (couch.relative_path|remove:"_couches/"|remove_first:".md") %}
+    {% assign country = couch.country | upcase %}
+    <li class="collection-item">
+      <div class="row">
+        <div class="col s12 m2">
+          <a href="{{couch.url}}">
+            <img src="{{page.email|to_gravatar:168}}" alt="{{ name }}" class="couch-avatar circle" width="84" height="84" />
+          </a>
+        </div>
+        <div class="col s12 m10">
+          <strong class="title"><a href="{{couch.url}}">{{ name }}</a></strong>
+
+          <p class="secondary-content">
+            {{couch.city}}<br>
+            {{site.data.countries[country] | downcase | capitalize}}
+          </p>
+          <p>
+            {{couch.content | strip_html | truncatewords:20 | remove: '...'}}
+            <a href="{{couch.url}}" title="Read More">...</a>
+          </p>
+      </div>
+    </li>
+    {% endfor %}
+
+</ul>

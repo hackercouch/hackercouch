@@ -23,6 +23,7 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 - Hosted on Github Pages, duh.
 - Builds use Travis, and make sure that the site has proper html before its deployed
 - `html-proofer` for html linting + link checks
+- For the layout we use [Materialize](http://materializecss.com/) framework
 
 ### Quickstart
 

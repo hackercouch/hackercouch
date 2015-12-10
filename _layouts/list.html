@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<header class="purple">
+  <div class="container">
+    <div class="section no-pad-top">
+      <div class="row">
+        <div class="col s12">
+
+          <nav role="navigation" class="z-depth-0">
+            <div class="nav-wrapper purple">
+              <a href="/" class="brand-logo">{{ site.title }}</a>
+              {% include menu.html %}
+            </div>
+          </nav>
+
+          <em class="purple-text text-lighten-5">{{site.description}}</em>
+
+          <div class="input-field">
+            <i class="material-icons search"></i>
+            <input id="list-search" type="search" placeholder="Search for city, country, hacker" class="purple-text text-lighten-5 deep-purple lighten-1">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article class="container">
+  <div class="section">
+    {{ content }}
+  </div>
+</article>
+
+{% include footer.html %}

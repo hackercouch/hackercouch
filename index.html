@@ -1,51 +1,27 @@
 ---
 layout: default
+page_id: home
 ---
+{% include header.html %}
 
-<div class="home">
-
-  <h1 class="page-heading">Couchsurfing for Hackers, by Hackers</h1>
-
-  <table class="post-list">
-    <thead>
-        <th>Hacker</th>
-        <th>City</th>
-        <th>Country</th>
-        <th>Social</th>
-        <th>Info</th>
-    </thead>
-    <tbody>
-    {% for couch in site.couches %}
-    <tr>
-        <td>
-            {% assign name = (couch.relative_path|remove:"_couches/"|remove_first:".md") %}
-            <a href="{{couch.url}}" title="{{name}}">
-            {{ name }}
-            </a>
-        </td>
-        <td>{{couch.city}}</td>
-        {% assign country = couch.country | upcase %}
-        <td>{{site.data.countries[country] | downcase | capitalize}}</td>
-        <td>{% include social.html tooltip-direction="e" %}</td>
-        <td>
-            {% if page.url == '/index.html' %}
-            {{couch.content | strip_html | truncatewords:20 | remove: '...'}}
-            <a href="{{couch.url}}" title="Read More">...</a>
-            {% else %}
-            {{couch.content}}
-            {% endif %}
-        </td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  <div>
-  You can click on the name to see the complete info provided.
-  We also serve all the information over our API at
-  <a href="/couches.json">/couches.json</a>
-  <p>
-    <br>
-    <a class="btn" href="/add.html" title="Add your couch">Add your Couch</a>
-  </p>
+<div class="section no-pad-bot">
+  <div class="container">
+    <br><br>
+    <h1 class="header center white-text">{{site.title}}</h1>
+    <div class="row center">
+      <h5 class="header col s12 white-text">{{site.description}}</h5>
+    </div>
+    <div class="row center">
+      <a href="/search/" class="btn-large waves-effect waves-light purple-text text-lighten-5 deep-purple lighten-1">Browse for Cities, Countries or Hackers</a>
+    </div>
+    <div class="row center">
+      <img src="/img/couch.png" alt="">
+    </div>
+    <div class="row center">
+      <a href="/add/" class="btn-large waves-effect waves-light">Add your couch</a>
+    </div>
+    <br><br>
   </div>
 </div>
+
+{% include statistics.html %}
