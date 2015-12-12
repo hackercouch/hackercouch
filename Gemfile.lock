@@ -18,6 +18,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    front_matter_parser (0.0.4)
     html-proofer (2.5.2)
       addressable (~> 2.3)
       colored (~> 1.2)
@@ -90,10 +91,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  front_matter_parser
   html-proofer (~> 2.5)
   jekyll (~> 2.5)
   kramdown (~> 1.9)
   open-uri-cached (= 0.0.5)
+  nokogiri (~> 1.6.7)
 
 BUNDLED WITH
    1.10.6
