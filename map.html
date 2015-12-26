@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <div id="map" style="height:550px;"></div>
 <div id="note"><br />
-	<b>Note</b>: <br />The markers on the map are on city basis, they may not represent the exact location.
+	<b>Note</b>: <br />The markers on the map are on city basis, they might not represent the exact location.
 	<br />Some cities may be missing due to error in getting the geocode.<br />
 	Geocoding API used is licenced under <a href="http://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>
 </div>
 <script>
-	var center = new google.maps.LatLng(0,5);
-	var mapOptions = {
-	  zoom: 2,
-	  center: center
-	}
-	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	var map = L.map('map').setView([0, 5], 2);
+	L.tileLayer('https://api.tiles.mapbox.com/v4/krsoninikhil.ohf7bn0p/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg', {
+	    attribution: 'Map data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com" target="_blank">Mapbox</a>',
+	    id: 'krsoninikhil.ohf7bn0p',
+	    accessToken: 'pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg'
+	}).addTo(map);
 	{% for couch in site.couches %}
 		{% assign location = (couch.city | append: ', ' | append: site.data.countries[couch.country]) %}
 		var loc = "{{ location }}";
@@ -29,14 +30,10 @@ layout: default
 		    if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
 				response = JSON.parse(xmlHttp.responseText)[0];
 		        if(response){
-					var lat = response['lat'];
-					var lon = response['lon'];
-					cordinates = {lat: parseInt(lat), lng: parseInt(lon)};
-					var marker = new google.maps.Marker({
-					    position: cordinates,
-					    title: loc
-					});
-					marker.setMap(map);
+					var lat = parseInt(response['lat']);
+					var lon = parseInt(response['lon']);
+					var marker = L.marker([lat, lon], {title: loc, riseOnHover: true}).addTo(map);
+					marker.bindPopup(loc);
 					//console.log(index+':  '+lat+', '+lon);
 				}else {
 					//console.log('---'+loc);
