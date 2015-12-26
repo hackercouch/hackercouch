@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<div id="map" style="height:550px;"></div>
+<div id="note"><br />
+	<b>Note</b>: <br />The markers on the map are on city basis, they may not represent the exact location.
+	<br />Some cities may be missing due to error in getting the geocode.<br />
+	Geocoding API used is licenced under <a href="http://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>
+</div>
+<script>
+	var center = new google.maps.LatLng(0,5);
+	var mapOptions = {
+	  zoom: 2,
+	  center: center
+	}
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	{% for couch in site.couches %}
+		{% assign location = (couch.city | append: ', ' | append: site.data.countries[couch.country]) %}
+		var loc = "{{ location }}";
+		//var theUrl = "http://nominatim.openstreetmap.org/search?city={{ couch.city }}&countrycodes={{ couch.country }}&format=json";
+		var theUrl = "http://nominatim.openstreetmap.org/search/{{ couch.country }}/{{ couch.city }}?format=json";
+		httpGetAsync(theUrl, "{{ forloop.index }}", loc);
+	{% endfor %}
+
+	function httpGetAsync(theUrl, index, loc){
+		var xmlHttp = new XMLHttpRequest();
+	    xmlHttp.onreadystatechange = function() {
+		    if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
+				response = JSON.parse(xmlHttp.responseText)[0];
+		        if(response){
+					var lat = response['lat'];
+					var lon = response['lon'];
+					cordinates = {lat: parseInt(lat), lng: parseInt(lon)};
+					var marker = new google.maps.Marker({
+					    position: cordinates,
+					    title: loc
+					});
+					marker.setMap(map);
+					//console.log(index+':  '+lat+', '+lon);
+				}else {
+					//console.log('---'+loc);
+				}
+		    }
+		}
+	    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+	    xmlHttp.send(null);
+	}
+</script>
