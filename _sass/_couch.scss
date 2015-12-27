@@ -1,0 +1,42 @@
+#list-search {
+  margin: 70px 0 20px 0;
+  border-bottom-color: transparent;
+  &:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+.couch-api {
+  margin-top: 3rem;
+}
+
+.couch-links {
+  li {
+    margin: 5px 0;
+  }
+  a {
+    color: #444;
+    transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    &:hover {
+      text-decoration: none;
+      color: $brand-color;
+    }
+  }
+}
+
+.couch-location {
+  line-height: 3.212rem;
+  padding: 1.46rem 0 1.168rem 0;
+}
+
+.couch-avatar {
+  background: #eee;
+  overflow: hidden;
+}
+
+#couch .couch-avatar {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}

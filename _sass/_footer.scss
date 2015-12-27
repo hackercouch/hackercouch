@@ -1,0 +1,12 @@
+
+// Sticky Footer
+// It is important to keep the structure of your page within the 3 HTML5 tags: `<header>`, `<main>`, `<footer>`
+// http://materializecss.com/footer.html#sticky-footer
+ body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}

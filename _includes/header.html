@@ -1,20 +1,9 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
+<nav class="purple" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="/" class="brand-logo">
+      <img src="/img/hackercouch.svg" alt="Hackercouch" width="50" height="50">
+    </a>
+    {% include menu.html %}
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>
-
-</header>
+</nav>
