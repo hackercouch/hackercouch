@@ -1,0 +1,184 @@
+{
+	"type": "FeatureCollection",
+    "features": [
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [30.5240501, 50.4501071]},
+		"properties": {"loc": "Kyiv, UA"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-80.4136767, 37.2296566]},
+		"properties": {"loc": "Blacksburg, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-122.3300624, 47.6038321]},
+		"properties": {"loc": "Seattle, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [123.84, 10.45]},
+		"properties": {"loc": "Cebu, PH"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-71.2349114, 46.8257374]},
+		"properties": {"loc": "Quebec City, CA"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-0.1276473, 51.5073219]},
+		"properties": {"loc": "London, GB"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [4.3643727, 50.9357373]},
+		"properties": {"loc": "Grimbergen, BE"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-75.573553, 6.2443382]},
+		"properties": {"loc": "Medellin, CO"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-122.6741949, 45.5202471]},
+		"properties": {"loc": "Portland, OR, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [77.5912997, 12.9791198]},
+		"properties": {"loc": "Bangalore, IN"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [28.9651646, 41.0096334]},
+		"properties": {"loc": "Istanbul, TR"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [7.7882673, 46.9392339]},
+		"properties": {"loc": "Langnau, CH"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-47.8909707, -22.0175435]},
+		"properties": {"loc": "São Carlos, br"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-47.8909707, -22.0175435]},
+		"properties": {"loc": "São Carlos, BR"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [151.2164539, -33.8548156]},
+		"properties": {"loc": "Sydney, AU"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [76.9573562, 8.5057492]},
+		"properties": {"loc": "Thiruvananthapuram, IN"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-122.3300624, 47.6038321]},
+		"properties": {"loc": "Seattle, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [8.634513, 47.6960491]},
+		"properties": {"loc": "Schaffhausen, CH"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [77.5912997, 12.9791198]},
+		"properties": {"loc": "Bangalore, IN"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [16.3725042, 48.2083537]},
+		"properties": {"loc": "Vienna, AT"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [77.5912997, 12.9791198]},
+		"properties": {"loc": "Bangalore, IN"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-73.9865812, 40.7305991]},
+		"properties": {"loc": "New York, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [13.3888599, 52.5170365]},
+		"properties": {"loc": "Berlin, DE"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [77.5912997, 12.9791198]},
+		"properties": {"loc": "Bangalore, IN"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [144.9631608, -37.8142175]},
+		"properties": {"loc": "Melbourne, AU"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [25.2853984, 54.6843135]},
+		"properties": {"loc": "Vilnius, LT"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-82.458444, 27.9477595]},
+		"properties": {"loc": "Tampa, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-100.3060828, 25.6764922]},
+		"properties": {"loc": "Monterrey, MX"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-77.6106860508176, 43.1854754]},
+		"properties": {"loc": "Rochester, US"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-9.1380056, 38.7130574]},
+		"properties": {"loc": "Lisbon, PT"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [4.69418278098918, 50.88121295]},
+		"properties": {"loc": "Leuven, BE"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [13.3888599, 52.5170365]},
+		"properties": {"loc": "Berlin, de"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [-0.5800364, 44.841225]},
+		"properties": {"loc": "Bordeaux, FR"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [14.4212556, 50.0874401]},
+		"properties": {"loc": "Prague, CZ"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [23.3225964, 42.6977211]},
+		"properties": {"loc": "Sofia, BG"}
+		},
+		{
+		"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [13.3888599, 52.5170365]},
+		"properties": {"loc": "Berlin, DE"}
+		}
+]}
