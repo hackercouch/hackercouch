@@ -1,6 +1,8 @@
-require 'open-uri'
+require 'open-uri/cached'
 require 'json'
-require 'pp'
+
+OpenURI::Cache.cache_path = '_cache'
+
 module Jekyll
   class GeoJsonGenerator <  Generator
     BASE_URL = 'http://nominatim.openstreetmap.org/search/'
