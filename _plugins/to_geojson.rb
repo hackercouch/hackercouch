@@ -39,7 +39,7 @@ module Jekyll
       end
 
       # Write the json to a file
-      File.open('_site/geo.json', 'w') do |file|
+      File.open('geo.json', 'w') do |file|
         json = JSON.pretty_generate(result)
         file.write(json)
       end
