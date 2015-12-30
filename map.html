@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<div id="map" style="height:550px;"></div>
+<div id="note">
+	<br />
+	<b>Note</b>:<br />
+	The markers on the map are on city basis, they might not represent the exact location.<br />
+	Some cities may be missing due to error in getting the geocode.<br />
+	Geocoding API used is licenced under <a href="http://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>
+</div>
+<script>
+	var map = L.map('map').setView([0, 5], 2);
+
+	//getting and adding map tiles from mapbox api
+	L.tileLayer('https://api.tiles.mapbox.com/v4/krsoninikhil.ohf7bn0p/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg', {
+	    attribution: 'Map data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com" target="_blank">Mapbox</a>',
+	    id: 'krsoninikhil.ohf7bn0p',
+	    accessToken: 'pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg'
+	}).addTo(map);
+
+	//loading geojson data and applying the layer(marker) on map
+	var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+	    if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
+			data = JSON.parse(xmlHttp.responseText);
+	    	//console.log(response);
+			L.geoJson(data, {
+			    onEachFeature: function (feature, layer) {
+			        layer.bindPopup(feature.properties.loc);
+			    }
+			}).addTo(map);
+	    }
+	}
+    xmlHttp.open("GET", 'geo.json', true); // true for asynchronous 
+    xmlHttp.send(null);
+	/*var apiUrl = "http://nominatim.openstreetmap.org/search/{{ couch.country }}/{{ couch.city }}?format=json";*/
+	
+</script>

@@ -1,6 +1,6 @@
 ---
 name: Kovalam Ezhuthu Kalari
-city: Thiruvanthapuram
+city: Thiruvananthapuram
 country: IN
 region: Poonkulam
 email: hello@kek.org.in
