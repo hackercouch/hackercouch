@@ -62,7 +62,7 @@ GEM
       mini_portile2 (~> 2.0.0.rc2)
     octokit (4.2.0)
       sawyer (~> 0.6.0, >= 0.5.3)
-    open-uri-cached (0.0.4)
+    open-uri-cached (0.0.5)
     parallel (1.6.1)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -93,7 +93,7 @@ DEPENDENCIES
   html-proofer (~> 2.5)
   jekyll (~> 2.5)
   kramdown (~> 1.9)
-  open-uri-cached (= 0.0.4)
+  open-uri-cached (= 0.0.5)
 
 BUNDLED WITH
    1.10.6
