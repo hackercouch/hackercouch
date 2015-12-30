@@ -26,7 +26,6 @@ layout: default
     xmlHttp.onreadystatechange = function() {
 	    if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
 			data = JSON.parse(xmlHttp.responseText);
-	    	//console.log(response);
 			L.geoJson(data, {
 			    onEachFeature: function (feature, layer) {
 			        layer.bindPopup(feature.properties.loc);
@@ -34,8 +33,7 @@ layout: default
 			}).addTo(map);
 	    }
 	}
-    xmlHttp.open("GET", 'geo.json', true); // true for asynchronous 
+    xmlHttp.open("GET", 'geo.json', true); // true for asynchronous
     xmlHttp.send(null);
-	/*var apiUrl = "http://nominatim.openstreetmap.org/search/{{ couch.country }}/{{ couch.city }}?format=json";*/
-	
+
 </script>
