@@ -2,7 +2,6 @@
 github: rjaus
 twitter: bedroomprotst
 email: rj@rileyjames.co
-website: http://bedroomprotester.com
 city: Melbourne
 country: AU
 region: Carlton
