@@ -4,7 +4,7 @@ cache:
   directories:
   - _cache/
 rvm:
-- 2.2
+- 2.3.0
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
