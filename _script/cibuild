@@ -21,4 +21,4 @@ bundle exec jekyll build
 cp geo.json _site/
 bundle exec htmlproof ./_site/
 
-#. ./_script/deploy.sh
+. ./_script/deploy.sh
