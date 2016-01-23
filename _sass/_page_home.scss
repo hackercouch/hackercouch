@@ -8,3 +8,35 @@ body#home {
     box-shadow: none;
   }
 }
+
+.img-couch {
+  display: block;
+  min-width: 506px;
+  width: 100%;
+  height: 356px;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  margin: 100px auto 40px auto;
+  @include background-image-retina('/img/couch.png', '/img/couch@2x.png', 506px, 316px);
+}
+.img-couch-shelf {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin: 0;
+  @include background-image-retina('/img/shelf.png', '/img/shelf@2x.png', '321px', '89px');
+}
+
+@include media-query(506px) {
+  .img-couch {
+    min-width: 320px;
+    height: 200px;
+    margin: 50px auto 30px auto;
+    @include background-image-retina('/img/couch.png', '/img/couch@2x.png', 320px, 200px);
+  }
+  .img-couch-shelf {
+    display: none;
+  }
+}
