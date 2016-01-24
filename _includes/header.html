@@ -3,7 +3,12 @@
     <a id="logo-container" href="/" class="brand-logo">
       <img src="/img/hackercouch.svg" alt="Hackercouch" width="50" height="50">
     </a>
-    {% include menu.html %}
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="#" data-activates="hackercouch-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      {% include menu.html %}
+    </ul>
+    <ul class="side-nav" id="hackercouch-menu">
+      {% include menu.html %}
+    </ul>
   </div>
 </nav>

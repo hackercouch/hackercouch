@@ -7,10 +7,19 @@ layout: default
       <div class="row">
         <div class="col s12">
 
-          <nav role="navigation" class="z-depth-0">
+          <nav class="z-depth-0" role="navigation">
             <div class="nav-wrapper purple">
-              <a href="/" class="brand-logo">{{ site.title }}</a>
-              {% include menu.html %}
+              <a id="logo-container" href="/" class="brand-logo">
+                <!--<img src="/img/hackercouch.svg" alt="Hackercouch" width="50" height="50">-->
+                {{ site.title }}
+              </a>
+              <a href="#" data-activates="hackercouch-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                {% include menu.html %}
+              </ul>
+              <ul class="side-nav" id="hackercouch-menu">
+                {% include menu.html %}
+              </ul>
             </div>
           </nav>
 
