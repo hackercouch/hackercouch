@@ -6,52 +6,52 @@
 <ul class="couch-links">
   {% if couch.twitter %}
   <li><a data-tipsy="@{{couch.twitter}}" class="tipsy--{{ include.tooltip-direction }}" href="https://twitter.com/{{couch.twitter}}">
-    <span class="socicon socicon-twitter"></span> Twitter
+    <i class="icon-twitter"></i> Twitter
   </a></li>
   {% endif %}
   {% if couch.github %}
   <li><a data-tipsy="@{{couch.github}}" class="tipsy--{{ include.tooltip-direction }}" href="https://github.com/{{couch.github}}">
-    <span class="socicon socicon-github"></span> Github
+    <i class="icon-github"></i> Github
   </a></li>
   {% endif %}
   {% if couch.facebook %}
   <li><a data-tipsy="{{couch.facebook}}" class="tipsy--{{ include.tooltip-direction }}" href="https://facebook.com/{{couch.facebook}}">
-    <span class="socicon socicon-facebook"></span> Facebook
+    <i class="icon-facebook"></i> Facebook
   </a></li>
   {% endif %}
   {% if couch.reddit %}
   <li><a data-tipsy="/u/{{couch.reddit}}" class="tipsy--{{ include.tooltip-direction }}" href="https://reddit.com/u/{{couch.reddit}}">
-    <span class="socicon socicon-reddit"></span> Reddit
+    <i class="icon-reddit"></i> Reddit
   </a></li>
   {% endif %}
   {% if couch.website %}
   <li><a data-tipsy="{{couch.website | remove_first:'http://'| remove_first:'https://' | remove_first:'www.'}}" class="tipsy--{{ include.tooltip-direction }}" href="{{couch.website}}">
-    &#127760; Website
+    <i class="tiny material-icons">code</i> Website
   </a></li>
   {% endif %}
   {% if couch.couchsurfing %}
   <li><a data-tipsy="@{{couch.couchsurfing}}" class="tipsy--{{ include.tooltip-direction }}" href="https://www.couchsurfing.com/people/{{couch.couchsurfing}}">
-    <span class="hospex-icon-couchsurfing"></span> Couchsurfing
+    <i class="hospex-icon-couchsurfing"></i> Couchsurfing
   </a></li>
   {% endif %}
   {% if couch.warmshowers %}
   <li><a href="https://www.warmshowers.org/user/{{couch.warmshowers}}" data-proofer-ignore>
-    <span class="hospex-icon-warmshowers"></span> Wamrshowers
+    <i class="hospex-icon-warmshowers"></i> Wamrshowers
   </a></li>
   {% endif %}
   {% if couch.bewelcome %}
   <li><a data-tipsy="@{{couch.bewelcome}}" class="tipsy--{{ include.tooltip-direction }}" href="http://www.bewelcome.org/members/{{couch.bewelcome}}">
-    <span class="hospex-icon-bewelcome"></span> BeWelcome
+    <i class="hospex-icon-bewelcome"></i> BeWelcome
   </a></li>
   {% endif %}
   {% if couch.trustroots %}
   <li><a data-tipsy="@{{couch.trustroots}}" class="tipsy--{{ include.tooltip-direction }}" href="https://www.trustroots.org/profile/{{couch.trustroots}}" data-proofer-ignore>
-    <span class="hospex-icon-trustroots"></span> Trustroots
+    <i class="hospex-icon-trustroots"></i> Trustroots
   </a></li>
   {% endif %}
   {% if couch.email %}
   <li><a data-tipsy="{{couch.email}}" class="tipsy--{{ include.tooltip-direction }}" href="mailto:{{couch.email}}">
-    <span class="socicon socicon-mail"></span> Send Mail
+    <i class="tiny material-icons">send</i> Send Mail
   </a></li>
   {% endif %}
 </ul>

@@ -23,11 +23,37 @@ layout: default
             </div>
           </nav>
 
-          <em class="purple-text text-lighten-5">{{site.description}}</em>
+          <em class="purple-text text-lighten-5">{{ site.description }}</em>
 
-          <div class="input-field">
-            <i class="material-icons search"></i>
-            <input id="list-search" type="search" placeholder="Search for city, country, hacker" class="purple-text text-lighten-5 deep-purple lighten-1">
+          <div class="row" id="filters">
+              <!--
+              <input id="list-search" type="search" placeholder="Search for city, country, hacker" class="purple-text text-lighten-5 deep-purple lighten-1">
+              -->
+
+              {% capture countrycodes %}{% for couch in site.couches %}|{{ couch.country | upcase }}{% endfor %}{% endcapture %}
+              {% assign array = countrycodes | split: '|' %}
+              {% assign countries = array[1] %}
+              {% for item in array %}
+                {% unless countries contains item %}
+                  {% capture countries %}{{ countries }}|{{ item }}{% endcapture %}
+                {% endunless %}
+              {% endfor %}
+
+            <div class="input-field col s12 m5">
+              <select id="selector-country" class="purple-text text-lighten-5 deep-purple lighten-1 z-depth-1">
+                <option value="" disabled selected>Choose a Country</option>
+                {% assign countrylist = countries | split: '|' %}
+                {% for country in countrylist  %}
+                <option value="{{ country }}" data-countryname="{{site.data.countries[country] | downcase | capitalize}}">
+                  {{ site.data.countries[country] | downcase | capitalize }}
+                </option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="input-field col s12 m4">
+              <a href="#" class="waves-effect waves-light deep-purple lighten-1 btn" id="country-filter-close">Show everyone</a>
+            </div>
+
           </div>
 
         </div>

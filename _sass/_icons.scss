@@ -1,0 +1,24 @@
+
+$icon-size: 18px;
+
+[class^="icon-"], [class*="icon-"] {
+  text-indent: -9999px;
+  display: block;
+  float: left;
+  speak: none;
+  width: $icon-size;
+  height: $icon-size;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: $icon-size $icon-size;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.icon-facebook { background-image: url(/img/icon-facebook.svg); }
+.icon-linkedin { background-image: url(/img/icon-linkedin.svg); }
+.icon-github { background-image: url(/img/icon-github.svg); }
+.icon-twitter { background-image: url(/img/icon-twitter.svg); }
+.icon-website { background-image: url(/img/icon-website.svg); }
+.icon-reddit { background-image: url(/img/icon-reddit.svg); }

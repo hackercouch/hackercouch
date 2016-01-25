@@ -1,3 +1,37 @@
+// Couch list
+#couches {
+  .title {
+    font-size: 1.3rem;
+  }
+  &.filter-countries {
+    .couch {
+      display: none;
+      &.country-active {
+        display: block;
+      }
+    }
+  }
+}
+
+#filters {
+  .input-field  {
+    .select-wrapper input.select-dropdown {
+      border-bottom: 0;
+    }
+    .select-wrapper {
+      padding-left: 10px;
+    }
+    .caret {
+      right: 10px;
+      color: #f3e5f5;
+    }
+  }
+}
+
+#country-filter-close {
+  display: none;
+}
+
 #list-search {
   margin: 70px 0 20px 0;
   border-bottom-color: transparent;
@@ -14,6 +48,12 @@
   li {
     margin: 5px 0;
   }
+  // Icons
+  i {
+    margin-right: 5px;
+    width: 18px;
+    text-align: center;
+  }
   a {
     color: #444;
     transition: color .2s ease-in-out;
@@ -26,17 +66,41 @@
 }
 
 .couch-location {
-  line-height: 3.212rem;
+  line-height: 1.212rem;
   padding: 1.46rem 0 1.168rem 0;
 }
 
+// At profile page + profile list
 .couch-avatar {
+  max-width: 100%;
   background: #eee;
   overflow: hidden;
 }
 
+// Only at profile page
 #couch .couch-avatar {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+.couch-description {
+  h1 {
+    font-size: 1.62rem;
+  }
+  h2 {
+    font-size: 1.52rem;
+  }
+  h3 {
+    font-size: 1.42rem;
+  }
+  h4 {
+    font-size: 1.32rem;
+  }
+  h5 {
+    font-size: 1.22rem;
+  }
+  h6 {
+    font-size: 1.12rem;
+  }
 }

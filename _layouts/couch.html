@@ -35,17 +35,15 @@ body_id: couch
           <h4>{{ name }}</h4>
         </div>
         <div class="col s6 right-align">
-          <span class="couch-location">
-            {% assign country = page.country | upcase %}
-            {% capture location %}{{% if page.region %}}<span>{{page.region}} </span>{{% endif %}}{{% if page.city %}}<span>{{page.city}} </span>{{% endif %}}<span>{{site.data.countries[country] | downcase | capitalize}}</span>{% endcapture %}
-            <a href="https://nominatim.openstreetmap.org/search.php?q={{location|strip_html|strip|cgi_escape}}">{{location}}</a>
-          </span>
+          {% assign country = page.country | upcase %}
+          {% capture location %}{{% if page.region != "" %}}{{page.region}}<br>{{% endif %}}{{% if page.city %}} {{page.city}}<br>{{% endif %}} {{site.data.countries[country] | downcase | capitalize}}{% endcapture %}
+          <a href="https://nominatim.openstreetmap.org/search.php?q={{ location | strip_html | strip | cgi_escape }}" class="couch-location">{{ location }}</a>
         </div>
       </header>
 
       <hr>
 
-      {{ content }}
+      <div class="couch-description">{{ content }}</div>
 
       </div>
     </div>
