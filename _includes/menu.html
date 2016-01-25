@@ -1,5 +1,5 @@
-{% for page in site.pages %}
-  {% if page.title %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% for link in site.pages %}
+  {% if link.title %}
+    <li{% if page.url == link.url %} class="active" {% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
   {% endif %}
 {% endfor %}
