@@ -8,5 +8,6 @@ country: IT
 ---
 
 Hacklabbo is a collectiv project. 
-We have a cluster of couchs for friends, please let us know if you want to visist the city and share knowledge.
+We have a cluster of couchs for friends, please let us know if you want to visit the city, meet some hackers and share knowledge.
 
+The hacklab lives inside XM24 a self-managed social center based on Antifascism, Antiracism and Antisexism. 
