@@ -17,6 +17,6 @@ cp -r _couches/ _json
 # Run jekyll
 bundle exec jekyll doctor
 bundle exec jekyll build
-bundle exec htmlproof ./_site/
+bundle exec htmlproof ./_site/ --allow_hash_href true
 
 . ./_script/deploy.sh
