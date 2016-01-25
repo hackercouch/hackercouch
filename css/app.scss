@@ -3,6 +3,8 @@
 ---
 @charset "utf-8";
 
+//= require Materialize/dist/sass/materialize.scss
+
 // Variables
 $spacing-unit:     30px;
 $brand-color:      #5814bb;
@@ -17,7 +19,6 @@ $grey-color-dark:  darken($grey-color, 25%);
   "mixins/tipsy",
   "mixins/mediaquery",
   "syntax-highlighting",
-  "socicons",
   "hospex-icons",
   "tooltip",
   "base",
