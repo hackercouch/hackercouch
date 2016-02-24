@@ -5,7 +5,6 @@ layout: page
 
 - [jancborchardt/hackercouch](https://github.com/jancborchardt/hackercouch) — The original hackercouch project
 - [totalism.org/alike](http://totalism.org/alike "Similar Initiatives") — Similar Initiatives
-- [Adopt a hacker](http://www.adoptahacker.com/)
 
 #### Other hospitality networks
 - [Couchsurfing.com](https://www.couchsurfing.com/)
