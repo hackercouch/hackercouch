@@ -104,7 +104,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  front_matter_parser
+  front_matter_parser (~> 0.0.4)
   html-proofer (~> 2.5)
   jekyll (~> 2.5)
   kramdown (~> 1.9)
