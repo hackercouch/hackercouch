@@ -1,4 +1,4 @@
-# hackercouch
+# hackercouch [![Build Status](https://travis-ci.org/hackercouch/hackercouch.svg?branch=master)](https://travis-ci.org/hackercouch/hackercouch)
 
 HackerCouch is "Hospitality for Hackers". Here's how it goes:
 
