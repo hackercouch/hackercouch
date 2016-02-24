@@ -11,6 +11,8 @@ if [ ! -z ${badcouches} ]; then
 	false
 fi
 
+ruby -I test:lib _script/test_couches.rb
+
 # Create the json collection
 cp -r _couches/ _json
 
