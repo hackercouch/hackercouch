@@ -1,8 +1,8 @@
 ---
-name: Nicolas França #optional
-city: São Carlos #required
-country: ISO 3166-1 alpha-2 BR 55 (2 characters, uppercase) #required
-email: nicolasfranca9@gmail.com #required
+name: Nicolas França
+city: São Carlos
+country: BR
+email: nicolasfranca9@gmail.com
 github: NicolasFrancaX
 twitter: NicolasFrancaX
 website: nicolasfrancax.github.io
