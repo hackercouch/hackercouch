@@ -4,7 +4,7 @@ city: Warsaw
 country: PL
 email: smarkaty@protonmail.org
 github: dziczeczek
-website: http://wszystkomizjedli.github.io
+website: https://wszystkomizjedli.github.io
 facebook: smarkaty
 couchsurfing: agata-andrzejewska
 bewelcome: dzikudzik
