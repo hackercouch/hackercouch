@@ -6,7 +6,6 @@ region: Weisenau/Hechtsheim
 email: mail@strfry.org
 github: strfry
 twitter: strfry
-website: http://strfry.org
 facebook: strfry
 bewelcome: strfry
 ---
