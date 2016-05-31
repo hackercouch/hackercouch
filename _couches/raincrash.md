@@ -1,6 +1,6 @@
 ---
 name: Sricharan Chiruvolu
-city: Bengaluru, aka Bangalore
+city: Bengaluru
 country: IN
 region: Koramangala
 email: sricharanized@gmail.com
