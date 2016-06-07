@@ -2,7 +2,6 @@
 github: guilhermeasg
 twitter: guilhermea
 email: guilhermea@tuta.io
-website: http://guilhermea.ga
 reddit: guilhermeaugusto
 city: São Carlos
 country: br
