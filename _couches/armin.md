@@ -1,6 +1,5 @@
 ---
 github: netzverweigerer
-twitter: netzverweigerer
 email: netzverweigerer@gmail.com
 city: Frankfurt am Main
 country: DE
