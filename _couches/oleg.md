@@ -1,9 +1,7 @@
 ---
 github: BeOleg
 email: hellgy@gmail.com
-facebook: hellgy
 twitter: iooleg
-#website: http://www.kapara.io/
 city: Berlin
 country: DE
 ---
