@@ -26,6 +26,10 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 - The original hackercouch project: [jancborchardt/hackercouch][original]
 - [remy/mit-license](https://github.com/remy/mit-license) for the fork-PR-publish workflow.
 
+### Disclaimer
+
+Our disclaimer policy is on our [website][disclaimer].
+
 ### License
 
 This uses Jekyll collections and the base Jekyll theme. The very little code here
@@ -39,3 +43,4 @@ The minimum required information is your nick, city and country code.
 [original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
 [gh]: https://github.com/hackercouch/hackercouch
 [comment]: https://news.ycombinator.com/item?id=1842383 "hackercouch.com, anyone?"
+[disclaimer]: /disclaimer/
