@@ -3,7 +3,6 @@ github: zensavona
 twitter: zensavona
 email: tedelex06@gmail.com
 website: https://zen.id.au
-facebook: zenbrah
 city: Berlin
 country: DE
 name: Zen

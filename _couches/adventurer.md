@@ -3,7 +3,6 @@ github: worldadventurer
 twitter: rraavvii
 email: RaviA@engageSPARK.com
 website: https://www.engageSPARK.com
-facebook: rraavvii
 city: Cebu
 country: PH
 name: Ravi
