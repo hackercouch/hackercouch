@@ -5,10 +5,8 @@ country: MX                                   #required
 region: Nuevo Leon                            #optional
 email: thelastinuit@bravarianpawstudios.com   #required
 github: thelastinuit
-twitter: thelastinuit
 website: http://www.bravarianpawstudios.com
 facebook: thelastinuit
-reddit: thelastinuit
 couchsurfing: MaxSFeinberg
 bewelcome: thelastinuit
 trustroots: thelastinuit
