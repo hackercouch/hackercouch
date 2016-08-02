@@ -6,6 +6,7 @@ email: julio@juliobs.com
 github: jbsilva
 twitter: 6jj
 website: http://juliobs.com
+facebook: juliobs
 couchsurfing: juliob91
 ---
 

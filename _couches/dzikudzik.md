@@ -5,6 +5,7 @@ country: PL
 email: smarkaty@protonmail.org
 github: dziczeczek
 website: https://wszystkomizjedli.github.io
+facebook: smarkaty
 couchsurfing: agata-andrzejewska
 bewelcome: dzikudzik
 trustroots: smarkaty

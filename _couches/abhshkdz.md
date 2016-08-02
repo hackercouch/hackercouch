@@ -3,6 +3,7 @@ github: abhshkdz
 twitter: abhshkdz
 email: das.abhshk@gmail.com
 website: http://abhishekdas.com
+facebook: abhshkdz
 reddit: abhshkdz
 city: Blacksburg
 country: US

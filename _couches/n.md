@@ -5,6 +5,7 @@ country: US #required
 region: Manhattan #optional
 email: iamnotnader@gmail.com #required
 github: iamnotnader
+facebook: iamnotnader
 ---
 
 I have a couch and a lot of floor space located a few blocks
