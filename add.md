@@ -1,12 +1,19 @@
 ---
-title: How to add your couch
+title: How to manage your couch
 layout: page
 ---
+
+### Add your couch
 
 1. Fork [this repo][fork]
 2. Create a file in the `_couches` directory called NICK.md. Use the basic template provided below
 3. Commit
 4. File a Pull Request
+
+### Marking unavailability
+
+When you are unavailable, just delete your NICK.md and send a new Pull
+Request. Later, you can `git revert` to make yourself available again.
 
 ### Template
 
