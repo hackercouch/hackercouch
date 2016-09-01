@@ -1,6 +1,5 @@
 ---
 github: rjaus
-twitter: bedroomprotst
 email: rj@rileyjames.co
 city: Melbourne
 country: AU
