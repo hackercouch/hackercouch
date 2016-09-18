@@ -2,7 +2,6 @@
 github: sindhus
 twitter: sindhu
 email: sindhus@live.in
-website: https://sindhus.github.io
 reddit: sindhus
 city: Bangalore
 country: IN
