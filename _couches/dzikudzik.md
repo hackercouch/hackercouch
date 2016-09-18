@@ -3,6 +3,7 @@ name: Agata
 city: Warsaw
 country: PL
 email: smarkaty@protonmail.org
+github: agatatalita
 website: https://wszystkomizjedli.github.io
 facebook: smarkaty
 couchsurfing: agata-andrzejewska
