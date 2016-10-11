@@ -5,8 +5,8 @@ country: IN
 region: Koramangala
 email: sricharanized@gmail.com
 github: raincrash
-twitter: Sricharanized
-website: http://sricharan.xyz
+twitter: theraincrash
+website: http://sricharan.me
 facebook: Sricharanized
 ---
 
