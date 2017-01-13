@@ -3,10 +3,9 @@ name: Max S. Feinberg                         #optional
 city: Monterrey                               #required
 country: MX                                   #required
 region: Nuevo Leon                            #optional
-email: thelastinuit@bravarianpawstudios.com   #required
+email: email@luisignac.io                     #required
 github: thelastinuit
-website: http://www.bravarianpawstudios.com
-facebook: thelastinuit
+website: https://www.luisignac.io
 couchsurfing: MaxSFeinberg
 bewelcome: thelastinuit
 trustroots: thelastinuit
