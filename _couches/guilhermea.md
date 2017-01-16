@@ -1,6 +1,5 @@
 ---
 github: guilhermeasg
-twitter: guilhermea
 email: guilhermea@tuta.io
 reddit: guilhermeaugusto
 city: São Carlos
