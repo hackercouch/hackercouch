@@ -1,11 +1,14 @@
+---
 name: Nino
 city: Brussels
 country: BE
+region: Anderlecht
 email: lafuente@riseup.net
-gitlab: nin_o_0
+github: glycergic
 twitter: nin_o_0
 website: lafuente.space
-__
+trustroots: nino
+---
 
 In Brussels we've level up'd an empty house (not squatted, but in a temporary legal occupation).
 
