@@ -6,7 +6,7 @@ region: Anderlecht
 email: lafuente@riseup.net
 github: glycergic
 twitter: nin_o_0
-website: lafuente.space
+website: https://lafuente.space/
 trustroots: nino
 ---
 
@@ -19,4 +19,3 @@ Then downstairs is the bicycle workshop and general workshop in the making.
 Personally into DIY hosting and decentralized internet / mesh at the moment. And organizing cryptoparties.
 
 If you come you can make a double of the key so you can be autonomous.
-
