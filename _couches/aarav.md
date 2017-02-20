@@ -1,6 +1,6 @@
 ---
 github: sharprakeshverma
-twitter: rv_the_ceo
+twitter: noobest_here
 email: rkv160794@gmail.com
 website: http://rakeshverma.in
 facebook: sharprakeshverma
