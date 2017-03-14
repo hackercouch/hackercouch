@@ -1,8 +1,8 @@
 ---
 name: Jonathan
-city: Mainz
+city: Dresden
 country: DE
-region: Weisenau/Hechtsheim
+region: Saxony
 email: mail@strfry.org
 github: strfry
 twitter: strfry
@@ -11,7 +11,7 @@ facebook: strfry
 bewelcome: strfry
 ---
 
-I have a small guest room and maybe additional space.
-Currently trying to organize my stuff into a hackbase.
+I live alone in a two-room appartment, in the very center of Dresden (right next to Bahnhof Mitte)
+I can host 1-2 people, and possibly more if you bring your own sleeping gear.
 
-Internet connection is there, but a bit whacky.
+Internet is sometimes available through Freifunk, at the mercy of nice unknown neighbours :)
