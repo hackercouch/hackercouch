@@ -3,9 +3,7 @@ name: Guillaume Ferron
 city: Paris
 country: FR
 email: guillaume.ferron@gmail.com
-github: guillaum3f
-twitter: 
-website: 
+github: gefeo
 facebook: guillaume.ferron
 ---
 
