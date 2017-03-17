@@ -6,6 +6,7 @@ region: Anderlecht
 email: lafuente@riseup.net
 github: glycergic
 twitter: nin_o_0
+website: https://lafuente.space/
 trustroots: nino
 ---
 
