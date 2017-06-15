@@ -1,7 +1,7 @@
 ---
 name: daiyi (chris!)
-city: Brooklyn, New York
-country: US
+city: Berlin
+country: DE
 email: root@daiyi.co
 github: daiyi
 twitter: daiyitastic
@@ -9,4 +9,4 @@ website: http://daiyi.co
 trustroots: daiyi
 ---
 
-We have a couch, blankets, kitchen, and wifi! <3 Only able to accept requests until March 21 2017. I'll be traveling again after that (:
+We have a couch, blankets, kitchen, wifi, and great enthusiasm \o/ We are friends of the clojure & distributed systems communities but of course everyone is welcome <3
