@@ -5,7 +5,7 @@ country: MX                                   #required
 region: Nuevo Leon                            #optional
 email: email@luisignac.io                     #required
 github: thelastinuit
-website: https://www.luisignac.io
+website: http://www.luisignac.io
 couchsurfing: MaxSFeinberg
 bewelcome: thelastinuit
 trustroots: thelastinuit
