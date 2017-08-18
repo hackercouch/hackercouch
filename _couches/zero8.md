@@ -5,7 +5,6 @@ country: IN
 region: Uttar Pradesh
 email: ashu17706@gmail.com
 github: ashu17706
-twitter: ashu17706
 website: http://ashutoshtripathi.me
 
 ---
