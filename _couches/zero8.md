@@ -1,13 +1,14 @@
 ---
 name: Ashutosh Tripathi
-city: Chitrakoot
+city: Hyderabad
 country: IN
-region: Uttar Pradesh
+region: Hafeezpet
 email: ashu17706@gmail.com
 github: ashu17706
+twitter: ashuthezero8
 website: http://ashutoshtripathi.me
 
 ---
 
-This is a storeroom turned my base in rooftop of my family house. I have a WiFi
-connection. Extra couch and a rooftop garden. And yes My mom cooks delicious North India food(Veg).
+I have an extra bed available, Fast internet for sure.
+If you are coming here, expect dinner from our cook. I do hoola - hoop, So If you are interested I can give you some beginner's lessons.
