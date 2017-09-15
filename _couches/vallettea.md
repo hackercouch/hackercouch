@@ -2,7 +2,6 @@
 github: vallettea
 twitter: vallettea
 email: vallettea@gmail.com
-website: http://ants.builders
 city: Bordeaux
 country: FR
 region: Gironde
