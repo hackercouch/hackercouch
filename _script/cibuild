@@ -22,6 +22,6 @@ cp geo.json _site/
 
 . ./_script/testssl.sh
 
-bundle exec htmlproof ./_site/
+bundle exec htmlproofer ./_site/
 
 . ./_script/deploy.sh
