@@ -19,6 +19,9 @@ bundle exec jekyll doctor
 bundle exec jekyll build
 # This is not getting copied for some reason
 cp geo.json _site/
+
+. ./_script/testssl.sh
+
 bundle exec htmlproof ./_site/
 
 . ./_script/deploy.sh
