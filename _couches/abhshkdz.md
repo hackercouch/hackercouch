@@ -2,7 +2,7 @@
 github: abhshkdz
 twitter: abhshkdz
 email: das.abhshk@gmail.com
-website: http://abhishekdas.com
+website: https://abhishekdas.com
 facebook: abhshkdz
 reddit: abhshkdz
 city: Blacksburg
