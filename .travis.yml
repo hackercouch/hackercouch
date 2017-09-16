@@ -1,4 +1,7 @@
 language: ruby
+sudo: required
+before_install:
+  - sudo update-ca-certificates
 cache:
   bundler: true
   directories:
