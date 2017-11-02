@@ -1,8 +1,14 @@
 ---
 layout: null
 ---
+
 [
-{% for couch in site.couches %}{% assign c = couch|drop_key:'output' | drop_key:'content'|drop_key: 'collection' | drop_key: 'layout'|drop_key: 'path' %}
-  {% assign json = c.url | remove_first:'.html' |append:'.json'%}
-  {{c|add_to_hash:'json',json|to_json}}{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
+{% for couch in site.couches %}
+{% assign out = site.emptyHash %}
+{% assign json = couch.url | remove_first:'.html' |append:'.json' %}
+  {% for field in site.api.fields %}
+    {% assign c = out|add_to_hash:field,couch[field] %}
+  {% endfor %}
+  {{ c|add_to_hash:'json',json | jsonify}}{% if forloop.index < forloop.length %},{% endif %}
+{% endfor %}
 ]

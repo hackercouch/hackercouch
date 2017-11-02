@@ -23,7 +23,17 @@ collections:
   # to the _couches collection
   json:
     output: true
-    permalink: /couches/:path.json
+api:
+  fields:
+    - city
+    - country
+    - region
+    - email
+    - github
+    - couchsurfing
+    - relative_path
+    - url
+emptyHash: {}
 defaults:
   - scope:
       type: couches
@@ -33,3 +43,4 @@ defaults:
       type: json
     values:
       layout: json
+      permalink: /couches/:path.json

@@ -1,0 +1,4 @@
+---
+layout: nil
+---
+{% assign out = site.emptyHash %}{% for field in site.api.fields %}{% assign out = out|add_to_hash:field,page[field] %}{% endfor %}{% assign out = out|add_to_hash:'content',page.content %}{{out|jsonify}}

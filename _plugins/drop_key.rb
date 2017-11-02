@@ -2,7 +2,7 @@ require 'pp'
 module Jekyll
   module DropKey
     def drop_key(input, key)
-      input.delete_if {|k, value| k==key}
+      input.to_a.delete_if {|k, value| k==key}
     end
   end
 end
