@@ -11,8 +11,9 @@ exclude:
   - .gitignore
   - .travis.yml
   - CNAME
-  - README.md
   - Gemfile*
+  - Rakefile
+  - README.md
   - vendor
 
 collections:

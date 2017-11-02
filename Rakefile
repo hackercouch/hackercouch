@@ -28,6 +28,7 @@ task :test do
     HTMLProofer.check_directory("_site", options).run
   rescue => msg
     puts "#{msg}"
+    exit 1
   end
 end
 
