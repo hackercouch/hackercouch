@@ -20,6 +20,6 @@ bundle exec jekyll build
 # This is not getting copied for some reason
 cp geo.json _site/
 
-bundle exec htmlproofer ./_site/ || true
+bundle exec rake test
 
 . ./_script/deploy.sh
