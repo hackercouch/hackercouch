@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>Network</th>
+            <th>Nick</th>
+            <th>Hash</th>
+        </tr>
+    </thead>
+    <tbody>
+    {%comment%}
+    These are the verifiable platforms.
+    TODO: Add Hacker News
+    {%endcomment%}
+        {% assign platforms = "twitter|github|reddit|website" | split: "|" %}
+        {% for platform in platforms %}
+        {% if couch[platform] %}
+            <tr>
+                <td>platform</td>
+                <td>{{couch[platform]}}</td>
+                <td>{{couch | verify_user_hash:platform}}</td>
+            </tr>
+        {% endif %}
+        {% endfor %}
+    </tbody>
+</table>

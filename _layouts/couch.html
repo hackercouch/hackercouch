@@ -36,6 +36,16 @@ layout: default
         </span>
     </div>
 
+    <div class="verify">
+        <strong>Verification information</strong>
+        <span>
+            These are your verification hashes. See the <a href="/verify/" title="Verification Guide">Verification Guide</a>
+            for more details
+        </span>
+        {% assign couch = page %}
+        {% include verify.html %}
+    </div>
+
     <p>
     This couch information is available via our API at
     <a href="{{page.url | remove_first:'.html'}}.json">
