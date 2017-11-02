@@ -1,13 +1,16 @@
 language: ruby
-sudo: required
-before_install:
-  - sudo update-ca-certificates
+addons:
+  apt:
+    packages:
+    # required to avoid SSL errors
+    - libcurl4-openssl-dev
 cache:
   bundler: true
   directories:
   - _cache/
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 rvm:
-- 2.3.0
+- 2.4.1
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.

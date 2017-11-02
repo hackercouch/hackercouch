@@ -2,7 +2,6 @@
 github: bithavoc
 twitter: bithavoc
 email: im@bithavoc.io
-website: http://bithavoc.io
 facebook: thepumpkin1979
 city: Medellin
 country: CO
