@@ -16,7 +16,6 @@ module Jekyll
       for couch in site.collections['couches'].docs
         data = couch.data
         url = BASE_URL + "#{data['country']}/#{data['city']}?format=json"
-        puts "Hitting #{url}"
         api_url = URI::encode(url)
 
         response = open(api_url)

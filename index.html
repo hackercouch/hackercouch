@@ -18,7 +18,7 @@ layout: default
     {% for couch in site.couches %}
     <tr>
         <td>
-            {% assign name = (couch.relative_path|remove:"_couches/"|remove_first:".md") %}
+            {% assign name = couch.relative_path|remove:"_couches/"|remove_first:".md" %}
             <a href="{{couch.url}}" title="{{name}}">
             {{ name }}
             </a>
