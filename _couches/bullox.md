@@ -11,7 +11,6 @@ facebook: bullox
 reddit: bull0x
 couchsurfing: bullox
 bewelcome: bullox
-trustroots: 
 warmshowers: bullox
 ---
 
