@@ -12,7 +12,7 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 - The idea of a Fork->PR->Merge->Publish flow with almost zero effort
 - Filing a pull request is a great filter for hackers
 - hackercouch.com was available
-- [This comment][comment] by @sirupsen on HN
+- <a data-proofer-ignore title="hackercouch.com, anyone?" href="https://news.ycombinator.com/item?id=1842383">This comment</a> by @sirupsen on HN
 
 ### Development
 
@@ -42,5 +42,4 @@ The minimum required information is your nick, city and country code.
 
 [original]: https://github.com/jancborchardt/hackercouch "The original hackercouch project"
 [gh]: https://github.com/hackercouch/hackercouch
-[comment]: https://news.ycombinator.com/item?id=1842383 "hackercouch.com, anyone?"
 [disclaimer]: /disclaimer/

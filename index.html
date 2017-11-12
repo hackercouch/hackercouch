@@ -9,10 +9,9 @@ layout: default
   <table class="post-list">
     <thead>
         <th>Hacker</th>
-        <th>City</th>
-        <th>Country</th>
+        <th>Location</th>
         <th>Social</th>
-        <th>Info</th>
+        <th colspan=2>Info</th>
     </thead>
     <tbody>
     {% for couch in site.couches %}
@@ -23,11 +22,10 @@ layout: default
             {{ name }}
             </a>
         </td>
-        <td>{{couch.city}}</td>
         {% assign country = couch.country | upcase %}
-        <td>{{site.data.countries[country] | downcase | capitalize}}</td>
+        <td>{{couch.city}}, {{site.data.countries[country] | downcase | capitalize}}</td>
         <td>{% include social.html tooltip-direction="e" %}</td>
-        <td>
+        <td colspan=2>
             {{ couch.content | strip_html | truncatewords: 30}}
         </td>
     </tr>
