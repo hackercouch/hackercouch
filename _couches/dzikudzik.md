@@ -2,7 +2,7 @@
 name: Talita
 city: Warsaw
 country: PL
-email: smarkaty@protonmail.com
+email: talita@protonmail.com
 github: agatatalita
 website: https://wszystkomizjedli.github.io
 facebook: smarkaty
