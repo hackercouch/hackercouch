@@ -1,6 +1,6 @@
 ---
-github: lut4rp
-twitter: prat_l
+github: pratul
+twitter: prxtl
 email: pratul@uncommon.is
 city: Bangalore
 country: IN
