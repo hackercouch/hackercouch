@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 <div id="map" style="height:550px;"></div>
 <div id="note">
 	<br />
@@ -15,8 +15,8 @@ layout: default
 	var map = L.map('map').setView([0, 5], 2);
 
 	//getting and adding map tiles from mapbox api
-	L.tileLayer('https://api.tiles.mapbox.com/v4/krsoninikhil.ohf7bn0p/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg', {
-	    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com" target="_blank">Mapbox</a>',
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com" target="_blank" rel="noopener noreferrer">Mapbox</a>',
 	    id: 'krsoninikhil.ohf7bn0p',
 	    accessToken: 'pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg'
 	}).addTo(map);
