@@ -1,8 +1,7 @@
 ---
 name: River
 city: Hamburg
-region: Hamburg
-country: Germany
+country: DE
 email: hackercouch@mm0hai.net
 github: anm
 twitter: rivermacleod
