@@ -1,7 +1,6 @@
 ---
 github: brianpetro
 twitter: brianpetro_
-website: http://brian-petro.com/
 facebook: BrianPlex
 reddit: brianpetro
 city: Tampa

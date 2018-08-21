@@ -2,7 +2,6 @@
 github: raudaschl
 twitter: raudaschl
 email: raudaschl@hotmail.co.uk
-website: http://www.iam46.com
 facebook: 
 city: London
 country: GB
