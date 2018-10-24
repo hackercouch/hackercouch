@@ -1,6 +1,6 @@
 ---
-name: Your Name #optional
-city: Bangaklore #required
+name: Chetana #optional
+city: Bangalore #required
 country: IN #required
 region: Electronic City #optional
 email: archetana@gmail.com #required
