@@ -5,7 +5,6 @@ country: IN
 region: Electronic City
 email: archetana@gmail.com
 github: archetana
-twitter: archetana
 website: https://archetana.github.io/
 facebook: archetana
 reddit: archetana
