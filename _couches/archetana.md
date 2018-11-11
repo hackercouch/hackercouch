@@ -1,9 +1,9 @@
 ---
-name: Chetana #optional
-city: Bangalore #required
-country: IN #required
-region: Electronic City #optional
-email: archetana@gmail.com #required
+name: Chetana
+city: Bangalore
+country: IN
+region: Electronic City
+email: archetana@gmail.com
 github: archetana
 twitter: archetana
 website: https://archetana.github.io/
@@ -11,6 +11,6 @@ facebook: archetana
 reddit: archetana
 couchsurfing: archetana
 bewelcome: archetana
-trustroots: -
-warmshowers: -
 ---
+
+Send an email for more details.
