@@ -2,13 +2,12 @@
 name: Abhijeet Goel
 city: Rishikesh
 country: IN
-region: region in your city #optional
+region: Najibabad
 email: ninjamonk@protonmail.com
 github: aNinjaMonk
 twitter: aninjamonk
 website: http://ninjamonk.co/
 facebook: abhijeet.nbd
-reddit: reddit_handle
 couchsurfing: abhijeet-goel
 ---
 
