@@ -2,7 +2,7 @@
 name: Akronix (Abel)
 city: Madrid
 region: Madrid
-country: Spain
+country: ES
 email: akronix5@gmail.com
 github: Akronix
 website: https://www.akronix.es/
