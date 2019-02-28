@@ -4,11 +4,12 @@ twitter: oddtazz
 couchsurfing: gaurav.c
 email: gaurav@chaturvedi.me
 website: https://chaturvedi.me
-city: Amsterdam
-country: NL
-region: Ijburg
+city: Bangalore
+country: IN
+region: Karnataka
 ---
 
-I have an extra bedroom you can use (It has a bed too).
-I have a 500/500 mbps fiber connection.
-Just moved in, still figuring things out, right now. Will update with relevant information.
+Moved back from Amsterdam
+Now in Bangalore, I live with a roommate.
+I can offer to host you in my hall on a foldable sofa/bed.
+
