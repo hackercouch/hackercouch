@@ -4,8 +4,6 @@ city: Bengaluru
 country: IN
 region: Koramangala
 email: sricharanized@gmail.com
-github: raincrash
-twitter: Raincrash101
 facebook: Sricharanized
 ---
 
