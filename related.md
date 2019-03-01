@@ -9,6 +9,6 @@ layout: page
 #### Other hospitality networks
 
 - <a data-proofer-ignore title="couchsurfing.com" href="https://couchsurfing.com">couchsurfing.com</a>
-- [Warmshowers.org](https://www.warmshowers.org/) — For cyclists
+- <a data-proofer-ignore title="warmshowers.org" href="https://warmshowers.org">warmshowers.org</a> - For cyclists
 - [Bewelcome.org](https://www.bewelcome.org/)
 - [Trustroots.org](https://www.trustroots.org/)
