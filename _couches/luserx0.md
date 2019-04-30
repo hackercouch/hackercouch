@@ -7,9 +7,9 @@ email: luserx0@gmail.com
 github: luserx0
 website: https://luserx0.cc
 reddit: luserx0
-couchsurfing: https://www.couchsurfing.com/people/harry-pantazis
-bewelcome: https://www.bewelcome.org/luserx0
-trustroots: https://www.trustroots.org/profile/luserx0
+couchsurfing: harry-pantazis
+bewelcome: luserx0
+trustroots: luserx0
 ---
 
 We have an apartment in central Athens with a couch-bed for anyone wishing to
