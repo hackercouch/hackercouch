@@ -1,7 +1,6 @@
 ---
 github: kprovost
 email: kristof@sigsegv.be
-website: http://www.sigsegv.be/
 city: Grimbergen
 country: BE
 ---
