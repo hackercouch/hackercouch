@@ -1,6 +1,5 @@
 ---
 github: kevinmcalear
-twitter: kevinmcalear
 email: kevin.mcalear@gmail.com
 website: http://kevinmcalear.com/
 facebook: KPMcAlear
