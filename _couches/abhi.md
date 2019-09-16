@@ -3,11 +3,12 @@ name: Abhijeet Goel
 city: Rishikesh
 country: IN
 region: Najibabad
-email: ninjamonk@protonmail.com
+email: ninjamonk@pm.me
 github: aNinjaMonk
 twitter: aninjamonk
+website: http://www.ninjamonk.in
 facebook: abhijeet.nbd
-couchsurfing: abhijeet-goel
+couchsurfing: abhijeetgoel
 ---
 
 I live near Rishikesh, Haridwar. I have spare couch & room, fast wifi and other amenities.
