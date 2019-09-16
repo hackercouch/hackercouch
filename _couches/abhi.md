@@ -6,7 +6,7 @@ region: Najibabad
 email: ninjamonk@pm.me
 github: aNinjaMonk
 twitter: aninjamonk
-website: www.ninjamonk.in
+website: http://www.ninjamonk.in
 facebook: abhijeet.nbd
 couchsurfing: abhijeetgoel
 ---
