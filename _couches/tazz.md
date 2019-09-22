@@ -3,7 +3,6 @@ github: oddtazz
 twitter: oddtazz
 couchsurfing: gaurav.c
 email: gaurav@chaturvedi.me
-website: https://chaturvedi.me
 city: Bangalore
 country: IN
 region: Karnataka
