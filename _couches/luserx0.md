@@ -5,7 +5,6 @@ country: GR
 region: Center
 email: luserx0@gmail.com
 github: luserx0
-website: https://luserx0.cc
 reddit: luserx0
 couchsurfing: harry-pantazis
 bewelcome: luserx0
@@ -21,5 +20,5 @@ Romanian, some Russian and some Chinese (Mandarin).
 Internet is not included, but we can share the ones we use (craftmanship is a
 pro), feel free to bring your own high-gain antenna.
 
-Tour around Athens included and (if you feel like it) we could help co-organize a presentation 
+Tour around Athens included and (if you feel like it) we could help co-organize a presentation
 at the hsgr to educate others.
