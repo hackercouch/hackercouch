@@ -10,7 +10,7 @@ cache:
   - _cache/
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 rvm:
-- 2.4.1
+- 2.6.5
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
