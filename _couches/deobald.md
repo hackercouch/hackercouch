@@ -1,16 +1,16 @@
 ---
 github: deobald
 twitter: deobald
-email: steven@nilenso.com
-website: http://blog.deobald.ca
+email: steven@deobald.ca
+website: http://www.deobald.ca
 facebook: steven.deobald
-city: Bangalore
+city: Kotagiri
 country: IN
-region: Cooke Town
+region: Rural
 name: Steven Deobald
 ---
 
-I sleep on a small mat in the living room, so my bed is always available to visitors. It's a king-sized mattress and can comfortably accomodate two people. My flat has one bathroom, a balcony, a large refrigerator, a gas stove, a desk, a table, and plenty of tea. Oh. And wifi.
+I travel a lot (more than I'd like) but my current temporary home is in Kotagiri. We have a spare room with an attached bathroom. We have a fridge, a gas stove, a dining table, tea, and tethered wifi. Please get in touch to see if I am in Kotagiri at the moment; I split my time between India and Canada (6mos/6mos).
 
 I practice Zero Waste. This means all garbage in my house falls into two categories:
 
