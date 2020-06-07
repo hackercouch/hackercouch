@@ -2,7 +2,6 @@
 github: tritao
 twitter: tritonpt
 email: joao@tritao.eu
-website: http://tritao.eu
 reddit: tritao
 city: Lisbon
 country: PT
