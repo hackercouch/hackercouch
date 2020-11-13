@@ -15,6 +15,7 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+  - .jekyll-cache
 
 collections:
   couches:

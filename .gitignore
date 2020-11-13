@@ -5,3 +5,4 @@ _json
 geo.json
 tmp/
 vendor/
+.jekyll-cache/
