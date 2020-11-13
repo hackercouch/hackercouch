@@ -1,5 +1,4 @@
 ---
-github: akimc
 twitter: akimqc
 email: grand.requin.blanc+hackercouch@gmail.com
 city: Quebec City
