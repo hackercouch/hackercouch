@@ -33,6 +33,7 @@ api:
     - couchsurfing
     - relative_path
     - url
+    - content
 emptyHash: {}
 defaults:
   - scope:
