@@ -15,10 +15,10 @@ module Jekyll
 
       for couch in site.collections['couches'].docs
         data = couch.data
-        url = BASE_URL + "#{data['country']}/#{data['city']}?format=json"
-        api_url = URI::encode(url)
-
-        response = open(api_url)
+        country = URI.encode_www_form_component data['country']
+        city = URI.encode_www_form_component data['city']
+        url = BASE_URL + "#{country}/#{city}?format=json"
+        response = URI.open(url)
         raise 'Invalid response from nominatim' if response.status[0] != '200'
         response = JSON.parse(response.read)
 
