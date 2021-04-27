@@ -1,9 +1,10 @@
 ---
 name: msleaveamix
 city: montpellier
-country: FRA
+country: FR
 region: occitanie
 email: msleaveamix@freepoteries.fr
+website: https://www.freepoteries.fr
 github: clarissa-parsons
 ---
 
