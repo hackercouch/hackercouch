@@ -5,7 +5,6 @@ region: Madrid
 country: ES
 email: akronix5@gmail.com
 github: Akronix
-website: https://www.akronix.es/
 trustroots: abel-por-que-no
 couchsurfing: abel-por-que-no
 bewelcome: Abel_Por_Que_No
