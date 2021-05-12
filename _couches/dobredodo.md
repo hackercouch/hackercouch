@@ -1,5 +1,6 @@
 ---
 github: dobredodo
+trustroots: psydodo
 email: stavrov.dobre@gmail.com
 city: Skopje, Kavadarci
 country: MK
