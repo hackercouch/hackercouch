@@ -5,7 +5,6 @@ country: IN
 region: Hafeezpet
 email: ashu17706@gmail.com
 github: ashu17706
-twitter: ashuthezero8
 
 ---
 

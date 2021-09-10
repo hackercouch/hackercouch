@@ -1,8 +1,6 @@
 ---
 github: brianpetro
 twitter: brianpetro_
-email: brian@plexm.com
-website: http://www.plexm.com
 facebook: BrianPlex
 reddit: brianpetro
 city: Tampa

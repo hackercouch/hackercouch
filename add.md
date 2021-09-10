@@ -6,7 +6,7 @@ layout: page
 ### Add your couch
 
 1. Fork [this repo][fork]
-2. Create a file in the `_couches` directory called NICK.md. Use the basic template provided below
+2. Create a file in the `_couches` directory called NICKNAME.md. Use the basic template provided below
 3. Commit
 4. File a Pull Request
 

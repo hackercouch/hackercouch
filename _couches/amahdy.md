@@ -5,7 +5,6 @@ country: FI
 github: amahdy
 website: http://amahdy.net
 facebook: amahdy.abdelaziz
-twitter: amahdy7
 couchsurfing: amahdy
 ---
 

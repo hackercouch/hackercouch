@@ -1,5 +1,4 @@
 ---
-github: guilhermeasg
 email: guilhermea@tuta.io
 reddit: guilhermeaugusto
 city: São Carlos

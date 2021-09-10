@@ -15,6 +15,7 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+  - .jekyll-cache
 
 collections:
   couches:
@@ -33,6 +34,7 @@ api:
     - couchsurfing
     - relative_path
     - url
+    - content
 emptyHash: {}
 defaults:
   - scope:

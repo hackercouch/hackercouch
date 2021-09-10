@@ -1,12 +1,13 @@
 ---
 name: daiyi (chris!)
-city: Berlin
-country: DE
+city: Oakland
+region: San Francisco Bay Area
+country: US
 email: root@daiyi.co
 github: daiyi
 twitter: daiyitastic
-website: http://daiyi.co
+website: https://daiyi.co
 trustroots: daiyi
 ---
 
-We have a couch, blankets, kitchen, wifi, and great enthusiasm \o/ We are friends of the clojure & distributed systems communities but of course everyone is welcome <3
+I live in a chill house with gentle folks and chicken. We prefer low key guests as we usually wind down around 21:30, and start our days early with tea and gym. We usually ship out to the mountains on the weekends (join us!) to climb, so weekdays are a better bet!

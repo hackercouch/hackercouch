@@ -10,7 +10,7 @@ cache:
   - _cache/
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 rvm:
-- 2.4.1
+- 2.7
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
@@ -26,3 +26,6 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - GH_REF: github.com/hackercouch/hackercouch.git
+
+before_install:
+  - gem install bundler
