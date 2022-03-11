@@ -14,13 +14,6 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 - hackercouch.com was available
 - <a data-proofer-ignore title="hackercouch.com, anyone?" href="https://news.ycombinator.com/item?id=1842383">This comment</a> by @sirupsen on HN
 
-### Development
-
-- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections heavily
-- Hosted on Github Pages, duh.
-- Builds use Travis, and make sure that the site has proper html before its deployed
-- `html-proofer` for html linting + link checks
-
 ### Credits
 
 - The original hackercouch project: [jancborchardt/hackercouch][original]
