@@ -1,0 +1,32 @@
+name: Build and Publish
+on: [push]
+jobs:
+  build:
+    name: Build/Publish the website
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    # The cache is written to at the end of the build
+    # If the build is successful
+    - name: Cache htmlproofer and open-uri network calls
+      uses: actions/cache@v2
+      with:
+        path: |
+          _cache
+          /tmp/.htmlproofer
+        key: hackercouch
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3.0"
+        bundler-cache: true
+    - name: Install dependencies
+      run: bundle install
+      env:
+        NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    - name: Build Site
+      run: ./_script/cibuild
+    - name: Publish to GitHub Pages
+      run: ./_script/deploy.sh
+      env:
+        GH_REF: github.com/hackercouch/hackercouch.git
+      if: ${{ github.ref_name == 'master' }}

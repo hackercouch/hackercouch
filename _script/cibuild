@@ -21,5 +21,3 @@ bundle exec jekyll build
 cp geo.json _site/
 
 bundle exec rake test
-
-. ./_script/deploy.sh

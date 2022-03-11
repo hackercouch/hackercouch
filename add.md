@@ -53,13 +53,14 @@ We pull your avatar from [Gravatar.com](https://gravatar.com/)
 
 ### Build
 
-Travis build runs html-proofer which checks the validity of all http links,
+The CI build runs `html-proofer` which checks the validity of all http links,
 so they need to be working fine. The country code must also be correct as per
 the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) list.
 It should be a 2 character country code.
 
-Once a build passes (and the branch is master), travis will auto-commit
-and push the compiled site to the `gh-pages` branch.
+Once a build passes (and the branch is master), our CI scripts will auto-commit
+and push the compiled site to the `gh-pages` branch, publishing the result to `hackercouch.com`
+in a few minutes.
 
 #### Merge
 

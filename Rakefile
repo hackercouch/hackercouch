@@ -1,4 +1,3 @@
-# See https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
 abort('Please run this using `bundle exec rake`') unless ENV["BUNDLE_BIN_PATH"]
 
 require 'html-proofer'
