@@ -1,4 +1,4 @@
-# hackercouch [![Build Status](https://travis-ci.org/hackercouch/hackercouch.svg?branch=master)](https://travis-ci.org/hackercouch/hackercouch)
+# hackercouch ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hackercouch/hackercouch/build/master) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhackercouch.com) ![GitHub pull requests](https://img.shields.io/github/issues-pr/hackercouch/hackercouch)
 
 HackerCouch is "Hospitality for Hackers". Here's how it goes:
 
@@ -19,18 +19,15 @@ The idea isn't new, it has been [tried before][original] as well. The reason we 
 
 # Development
 
-- HackerCouch uses [Jekyll](http://jekyllrb.com/) Collections heavily
-- Hosted on Github Pages, duh.
-- Builds use Travis, and make sure that the site has proper html before its deployed
-- `html-proofer` for html linting + link checks
+See [HACKING.md]
 
 ### Quickstart
 
+You'll need to have Ruby and Bundler setup.
+
 ```bash
-. ./_script/setup-env.sh
-gem install bundler
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ```
 
 And open <http://localhost:4000> in your browser.

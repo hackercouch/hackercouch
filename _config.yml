@@ -9,7 +9,6 @@ kramdown:
 exclude:
   - .editorconfig
   - .gitignore
-  - .travis.yml
   - CNAME
   - Gemfile*
   - Rakefile

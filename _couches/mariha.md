@@ -5,7 +5,7 @@ country: PL
 github: mariha
 facebook: mariha.kozinska
 mastodon: mariha@social.coop
-matrix: @mariha:matrix.org
+matrix: "@mariha:matrix.org"
 trustroots: mariha
 warmshowers: 133897
 name: mariha
