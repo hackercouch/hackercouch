@@ -2,7 +2,7 @@ name: Build and Publish
 on: [push]
 jobs:
   build:
-    name: Build/Publish the website
+    name: Build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -23,10 +23,11 @@ jobs:
       run: bundle install
       env:
         NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-    - name: Build Site
+    - name: Build website
       run: ./_script/cibuild
     - name: Publish to GitHub Pages
       run: ./_script/deploy.sh
       env:
         GH_REF: github.com/hackercouch/hackercouch.git
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       if: ${{ github.ref_name == 'master' }}
