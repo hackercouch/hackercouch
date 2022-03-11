@@ -5,9 +5,12 @@ require 'html-proofer'
 desc "Run HTMLProofer"
 task :test do
   options = {
-    :check_html => true,
-    :check_img_http => true,
-    :check_opengraph => true,
+    :ignore_urls => [
+      /mikaelkorpela/,
+      /hitchwiki/,
+      /steemit/
+    ],
+    :disable_external => true,
     :cache => {
       :timeframe => '7d'
     },
