@@ -2,7 +2,7 @@
 github: dobredodo
 trustroots: psydodo
 email: stavrov.dobre@gmail.com
-city: Skopje, Kavadarci
+city: Kavadarci
 country: MK
 ---
 
