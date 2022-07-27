@@ -11,8 +11,9 @@ task :test do
       /steemit/
     ],
     :disable_external => true,
+    :enforce_https => false,
     :cache => {
-      :timeframe => '7d'
+      :timeframe => { :internal => '7d' }
     },
     :typhoeus => {
       :headers => {
