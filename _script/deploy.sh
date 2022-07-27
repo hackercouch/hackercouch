@@ -21,4 +21,4 @@ git add .
 git commit -m "Deploy to GitHub Pages"
 
 # Publish to GitHub Pages
-git push --force --quiet "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@${GH_REF}"
+git push --force --quiet --set-upstream "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@${GH_REF}"
