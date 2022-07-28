@@ -11,5 +11,3 @@ couchsurfing: eaposztrof
 
 I have wide interests in Budapest and many regions of hungary, but have no permanent couch.
 I can help You to find some cool place to stay and meet great makers & hackers when You are around ;)
-
-**More about me**: [eapo #WhoAmI?](https://www.eaposztrof.com/rolam.html#eapo-whoami)

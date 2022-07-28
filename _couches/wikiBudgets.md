@@ -1,7 +1,6 @@
 ---
 twitter: wikiBudgets
 email: daniel@wikiBudgets.org
-website: http://wikibudgets.org/
 city: Prague #required
 country: CZ
 region: Kosire
