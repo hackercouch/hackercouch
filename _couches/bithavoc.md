@@ -17,4 +17,4 @@ Spare room includes:
 * Studio with Desk and Chair
 * Fully functional Kitchen and Washing Machine
 
-Medellin one of the most beautiful and safe cities from Colombia with an increasingly growing entrepreneur and weather so awesome it has been nicknamed [The City of the Eternal Spring](https://en.wikipedia.org/wiki/Medell%C3%ADn#Geography_and_climate).  If you're a digital nomad and looking for a place to stay for a few days, drop me a message with your schedule and I'll let you know what's the availability of the spare room.
+Medellin one of the most beautiful and safe cities from Colombia with an increasingly growing entrepreneur and weather so awesome it has been nicknamed [The City of the Eternal Spring](https://en.wikipedia.org/wiki/Medell%C3%ADn#Geography).  If you're a digital nomad and looking for a place to stay for a few days, drop me a message with your schedule and I'll let you know what's the availability of the spare room.
