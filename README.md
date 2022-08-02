@@ -1,4 +1,4 @@
-# hackercouch ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hackercouch/hackercouch/build/master) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhackercouch.com) ![GitHub pull requests](https://img.shields.io/github/issues-pr/hackercouch/hackercouch)
+# hackercouch ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hackercouch/hackercouch/Build%20and%20Publish/master) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhackercouch.com) ![GitHub pull requests](https://img.shields.io/github/issues-pr/hackercouch/hackercouch)
 
 HackerCouch is "Hospitality for Hackers". Here's how it goes:
 
