@@ -14,13 +14,13 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    ethon (0.15.0)
+    ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.15.5)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    html-proofer (5.0.1)
+    html-proofer (5.0.2)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -88,7 +88,7 @@ GEM
     unicode-display_width (2.3.0)
     webrick (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.6.4)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
