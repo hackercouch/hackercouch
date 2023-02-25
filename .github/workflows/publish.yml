@@ -9,12 +9,12 @@ jobs:
     # The cache is written to at the end of the build
     # If the build is successful
     - name: Cache htmlproofer and open-uri network calls
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: |
           _cache
           /tmp/.htmlproofer
-        key: hackercouch
+        key: ${{ runner.os }}-network
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: "3.1"
