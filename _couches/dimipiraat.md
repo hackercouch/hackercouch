@@ -6,7 +6,6 @@ region: Brooklyn
 email: dimi@zonk.be
 github: dimipiraat
 twitter: dimipiraat
-website: https://zonk.be
 couchsurfing: dimipiraat
 bewelcome: dimid
 ---
