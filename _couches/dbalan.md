@@ -8,5 +8,4 @@ country: DE
 region: Berlin
 ---
 
-Have a couch, fast internet and a stocked fridge. Happy to host if dates fit. More about me at <https://dbalan.in>.
-
+Have a couch, fast internet and a stocked fridge. Happy to host if dates fit. 
