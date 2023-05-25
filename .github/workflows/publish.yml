@@ -25,6 +25,12 @@ jobs:
         NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     - name: Build website
       run: ./_script/cibuild
+    # Validating HTML with remote link validation
+    # is always flaky, so we ignore if it fails
+    - name: validate html
+      run: bundle exec rake test
+      continue-on-error: true
+    # Deploy!
     - name: Publish to GitHub Pages
       run: ./_script/deploy.sh
       env:
