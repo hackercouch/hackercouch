@@ -4,7 +4,7 @@ city: Zalesie Górne
 country: PL
 github: mariha
 facebook: mariha.kozinska
-mastodon: mariha@social.coop
+mastodon: https://social.coop/@mariha
 matrix: "@mariha:matrix.org"
 trustroots: mariha
 warmshowers: 133897
