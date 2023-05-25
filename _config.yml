@@ -45,3 +45,7 @@ defaults:
     values:
       layout: json
       permalink: /couches/:path.json
+# Ignore warnings
+# https://github.com/jekyll/minima/issues/709
+sass:
+  quiet_deps: true

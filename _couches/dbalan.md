@@ -1,6 +1,6 @@
 ---
 github: dbalan
-mastodon: @notmycommit@notwork.in
+mastodon: "@notmycommit@notwork.in"
 email: mail@dbalan.in
 website: https://dbalan.in
 city: Berlin
