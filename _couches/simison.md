@@ -20,7 +20,7 @@ I've spent a lot of my time on the road — it’s in my nature. Often I've hitc
 
 I'm a thinker, maker & activist. I like making stuff, be it from wood, electronics or code.
 
-I'm a techie working at [Automattic](https://automattic.com/). As a hobby, I build open source & non-profit [travel projects](http://www.mikaelkorpela.fi/volunteering/) (I co-founded [Trustroots](https://www.trustroots.org/team) and I'm also behind [Hitchwiki](http://hitchwiki.org/), [Nomadwiki](http://nomadwiki.org/) and [Trashwiki](http://trashwiki.org/)).
+I'm a techie working at [Automattic](https://automattic.com/). As a hobby, I build open source & non-profit [travel projects](https://www.mikaelkorpela.fi/volunteering/) (I co-founded [Trustroots](https://www.trustroots.org/team) and I'm also behind [Hitchwiki](https://hitchwiki.org/en/Main_Page), [Nomadwiki](https://nomadwiki.org/en/Main_Page) and [Trashwiki](https://trashwiki.org/en/Main_Page)).
 
 I enjoy a company of positive and talkative people.
 Don’t be evil. Be yourself.

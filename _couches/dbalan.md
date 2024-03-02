@@ -1,12 +1,11 @@
 ---
 github: dbalan
-twitter: notmycommit
+mastodon: "https://notwork.in/@notmycommit"
 email: mail@dbalan.in
 website: https://dbalan.in
-city: Munich
+city: Berlin
 country: DE
-region: Bavaria
+region: Berlin
 ---
 
-I have a couch, a stocked fridge and a proper kitchen. I love Emacs and Haskell. Although, You are free to use any other inferior editor or language. :-P
-
+Have a couch, fast internet and a stocked fridge. Happy to host if dates fit. 

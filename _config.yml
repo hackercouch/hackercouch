@@ -9,7 +9,6 @@ kramdown:
 exclude:
   - .editorconfig
   - .gitignore
-  - .travis.yml
   - CNAME
   - Gemfile*
   - Rakefile
@@ -46,3 +45,7 @@ defaults:
     values:
       layout: json
       permalink: /couches/:path.json
+# Ignore warnings
+# https://github.com/jekyll/minima/issues/709
+sass:
+  quiet_deps: true

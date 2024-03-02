@@ -1,24 +1,21 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <div id="map" style="height:550px;"></div>
 <div id="note">
     <br />
     <b>Note</b>:<br />
     The markers on the map are on city basis, they might not represent the exact location.<br />
     Some cities may be missing due to error in getting the geocode.<br />
-    Geocoding API used is licenced under <a href="https://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>
+    This map is rendered using Leaflet, OpenStreetMap, and the Nominatim API. <a href="https://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>,
 </div>
 <script>
     var map = L.map('map').setView([0, 5], 2);
 
-    //getting and adding map tiles from mapbox api
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com" target="_blank" rel="noopener noreferrer">Mapbox</a>',
-        id: 'krsoninikhil.ohf7bn0p',
-        accessToken: 'pk.eyJ1Ijoia3Jzb25pbmlraGlsIiwiYSI6ImNpaW5kNXlldDAxZHF1ZGtuaXRjd3BkcmoifQ.QmQvqCD3eQu40QaB48nejg'
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>'
     }).addTo(map);
 
     //loading geojson data and applying the layer(marker) on map

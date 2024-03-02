@@ -12,6 +12,7 @@
     data-tipsy="Github"
     class="tipsy--{{ include.tooltip-direction }}"
     href="https://github.com/{{couch.github}}"
+    data-proofer-ignore
   >
     <span class="socicon socicon-github"></span>
   </a>
@@ -39,6 +40,15 @@
     href="{{couch.website}}"
   >
     &#127760;
+  </a>
+
+  {% endif %} {% if couch.mastodon %}
+  <a
+    data-tipsy="Mastodon/Fediverse"
+    class="tipsy--{{ include.tooltip-direction }}"
+    href="{{couch.mastodon}}"
+  >
+    <img alt="Mastodon Icon" class=socicon src="/css/socicon/mastodon.svg" height=24 width=24>
   </a>
   {% endif %} {% if couch.couchsurfing %}
   <a
@@ -75,6 +85,7 @@
     data-tipsy="Trustroots"
     class="tipsy--{{ include.tooltip-direction }}"
     href="https://www.trustroots.org/profile/{{couch.trustroots}}"
+    data-proofer-ignore
   >
     <span class="hospex-icon-trustroots"></span>
   </a>
