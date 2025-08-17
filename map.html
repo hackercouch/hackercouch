@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hackercouch</title>
+  <meta name="description" content="Hospitality for Hackers, by Hackers.">
+
+  <link rel="dns-prefetch" href="https://gravatar.com">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://hackercouch.com/map.html" data-proofer-ignore>
+  <!-- <link rel="alternate" type="application/rss+xml" title="Hackercouch" href="https://hackercouch.com/feed.xml" /> -->
+
+  <meta property="og:site_name" content="Hackercouch">
+  <meta property="og:title" content="Hackercouch">
+  <meta property="og:description" content="Hospitality for Hackers, by Hackers.">
+  <meta property="og:url" content="https://hackercouch.com/map.html" data-proofer-ignore>
+  <meta property="og:image" content="/img/share.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="Hackercouch">
+  <meta name="twitter:description" content="Hospitality for Hackers, by Hackers.">
+  <meta name="twitter:url" content="https://hackercouch.com/map.html" data-proofer-ignore>
+  <meta name="twitter:image" content="/img/share.png">
+  <meta name="twitter:site" content="hackercouch">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Hackercouch</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/add.html">How to manage your couch</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/disclaimer/">Disclaimer</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/related.html">Related Projects</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.css" integrity="sha256-P+hWJNlpL+GBSRYC7cdsDbQH91URmpDeOzLp7DbFRtE=" crossorigin="" />
+<script type="importmap">
+    {
+        "imports": {
+            "leaflet": "https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.js"
+        }
+    }
+</script>
+<div id="map" style="height:550px;"></div>
+<div id="note">
+    <br />
+    <b>Note</b>:<br />
+    The markers on the map are on city basis, they might not represent the exact location.<br />
+    Some cities may be missing due to error in getting the geocode.<br />
+    This map is rendered using Leaflet, OpenStreetMap, and the Geoapify API. <a href="https://www.openstreetmap.org/copyright" title="OpenStreetMap.org" target="_blank">Data © OpenStreetMap contributors, ODbL 1.0.</a>,
+</div>
+<script type=module>
+    import L, {Map, TileLayer, GeoJSON} from 'leaflet';
+    const map = new Map('map').setView([0, 5], 2);
+
+    const tiles = new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 15,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    //loading geojson data and applying the layer(marker) on map
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
+            const data = JSON.parse(xmlHttp.responseText);
+            new GeoJSON(data, {
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(feature.properties.loc);
+                }
+            }).addTo(map);
+        }
+    }
+    xmlHttp.open('GET', 'geo.json', true); // true for asynchronous
+    xmlHttp.send(null);
+
+</script>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">Hackercouch</h2> -->
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Hackercouch</li>
+          <li>72 Hackers, 31 Countries</li>
+          <li><a href="/map.html">View cities on map</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-1">
+        <ul class="social-media-list">
+          <li>
+            <span class="socicon socicon-github">
+            </span>
+            <a href="https://github.com/hackercouch/hackercouch">
+                <span class="username">source</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-1">
+        <p class="text">Hospitality for Hackers, by Hackers.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

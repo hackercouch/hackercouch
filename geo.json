@@ -1,0 +1,941 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9758715,
+          41.006381
+        ]
+      },
+      "properties": {
+        "loc": "istanbul, TR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5241361,
+          50.4500336
+        ]
+      },
+      "properties": {
+        "loc": "Kyiv, UA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.891154,
+          -22.0180395
+        ]
+      },
+      "properties": {
+        "loc": "São Carlos, BR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2090057,
+          28.6138954
+        ]
+      },
+      "properties": {
+        "loc": "New Delhi, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2916193,
+          30.1086537
+        ]
+      },
+      "properties": {
+        "loc": "Rishikesh, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3898151,
+          33.7544657
+        ]
+      },
+      "properties": {
+        "loc": "Atlanta, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2134046,
+          56.1496278
+        ]
+      },
+      "properties": {
+        "loc": "Aarhus, DK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330062,
+          47.6038321
+        ]
+      },
+      "properties": {
+        "loc": "Seattle, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.9019209,
+          10.2935639
+        ]
+      },
+      "properties": {
+        "loc": "Cebu, PH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7035825,
+          40.4167047
+        ]
+      },
+      "properties": {
+        "loc": "Madrid, ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2670522,
+          60.4517531
+        ]
+      },
+      "properties": {
+        "loc": "Turku, FI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1277653,
+          51.5074456
+        ]
+      },
+      "properties": {
+        "loc": "London, GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6820917,
+          50.1106444
+        ]
+      },
+      "properties": {
+        "loc": "Frankfurt am Main, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.38909669976362,
+          50.9457843
+        ]
+      },
+      "properties": {
+        "loc": "Grimbergen, BE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.573553,
+          6.2443382
+        ]
+      },
+      "properties": {
+        "loc": "Medellin, CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5972985,
+          51.4538022
+        ]
+      },
+      "properties": {
+        "loc": "Bristol, GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4521749,
+          46.9484742
+        ]
+      },
+      "properties": {
+        "loc": "Bern, CH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.47206,
+          29.09653
+        ]
+      },
+      "properties": {
+        "loc": "Mala (Lanzarote), ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.271356,
+          37.8044557
+        ]
+      },
+      "properties": {
+        "loc": "Oakland, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3989367,
+          52.510885
+        ]
+      },
+      "properties": {
+        "loc": "Berlin, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8658211,
+          11.4230431
+        ]
+      },
+      "properties": {
+        "loc": "Kotagiri, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4172197,
+          -33.9288301
+        ]
+      },
+      "properties": {
+        "loc": "Cape Town, ZA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.036349,
+          37.3688301
+        ]
+      },
+      "properties": {
+        "loc": "Sunnyvale, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0122593,
+          41.4332802
+        ]
+      },
+      "properties": {
+        "loc": "Kavadarci, MK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0067249,
+          52.2319581
+        ]
+      },
+      "properties": {
+        "loc": "Warsaw, PL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0402383,
+          47.4978789
+        ]
+      },
+      "properties": {
+        "loc": "Budapest, HU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9758715,
+          41.006381
+        ]
+      },
+      "properties": {
+        "loc": "Istanbul, TR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7882673,
+          46.9392339
+        ]
+      },
+      "properties": {
+        "loc": "Langnau, CH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3483915,
+          48.8534951
+        ]
+      },
+      "properties": {
+        "loc": "Paris, FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3483915,
+          48.8534951
+        ]
+      },
+      "properties": {
+        "loc": "Paris, FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.891154,
+          -22.0180395
+        ]
+      },
+      "properties": {
+        "loc": "São Carlos, br"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9427473,
+          60.1674881
+        ]
+      },
+      "properties": {
+        "loc": "Helsinki, FI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3426327,
+          44.4938203
+        ]
+      },
+      "properties": {
+        "loc": "Bologna, IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.891154,
+          -22.0180395
+        ]
+      },
+      "properties": {
+        "loc": "São Carlos, BR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2082848,
+          -33.8698439
+        ]
+      },
+      "properties": {
+        "loc": "Sydney, AU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7410574,
+          51.3709574
+        ]
+      },
+      "properties": {
+        "loc": "Wurzen, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.330062,
+          47.6038321
+        ]
+      },
+      "properties": {
+        "loc": "Seattle, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bengaluru, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.351697,
+          50.8465573
+        ]
+      },
+      "properties": {
+        "loc": "Brussels, BE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.634513,
+          47.6960491
+        ]
+      },
+      "properties": {
+        "loc": "Schaffhausen, CH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7348324,
+          37.9755648
+        ]
+      },
+      "properties": {
+        "loc": "Athens, GR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0366821,
+          52.0274759
+        ]
+      },
+      "properties": {
+        "loc": "Zalesie Górne, PL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8767337,
+          43.6112422
+        ]
+      },
+      "properties": {
+        "loc": "montpellier, FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725042,
+          48.2083537
+        ]
+      },
+      "properties": {
+        "loc": "Vienna, AT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0060152,
+          40.7127281
+        ]
+      },
+      "properties": {
+        "loc": "New York, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3989367,
+          52.510885
+        ]
+      },
+      "properties": {
+        "loc": "Berlin, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2090057,
+          28.6138954
+        ]
+      },
+      "properties": {
+        "loc": "New Delhi, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bengaluru, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.000654,
+          53.550341
+        ]
+      },
+      "properties": {
+        "loc": "Hamburg, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631732,
+          -37.8142454
+        ]
+      },
+      "properties": {
+        "loc": "Melbourne, AU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8519072,
+          1.2899175
+        ]
+      },
+      "properties": {
+        "loc": "Singapore, SG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2829111,
+          54.6870458
+        ]
+      },
+      "properties": {
+        "loc": "Vilnius, LT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6999713,
+          51.3746778
+        ]
+      },
+      "properties": {
+        "loc": "Iserlohn, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7381437,
+          51.0493286
+        ]
+      },
+      "properties": {
+        "loc": "Dresden, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.458444,
+          27.9477595
+        ]
+      },
+      "properties": {
+        "loc": "Tampa, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.590082,
+          12.9767936
+        ]
+      },
+      "properties": {
+        "loc": "Bangalore, IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3989367,
+          52.510885
+        ]
+      },
+      "properties": {
+        "loc": "Berlin, DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.315258,
+          25.6802019
+        ]
+      },
+      "properties": {
+        "loc": "Monterrey, MX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1365919,
+          38.7077507
+        ]
+      },
+      "properties": {
+        "loc": "Lisbon, PT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3989367,
+          52.510885
+        ]
+      },
+      "properties": {
+        "loc": "Berlin, de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35839,
+          52.0114017
+        ]
+      },
+      "properties": {
+        "loc": "Delft, NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5800364,
+          44.841225
+        ]
+      },
+      "properties": {
+        "loc": "Bordeaux, FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1598465,
+          37.4443293
+        ]
+      },
+      "properties": {
+        "loc": "Palo Alto, US"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4212535,
+          50.0874654
+        ]
+      },
+      "properties": {
+        "loc": "Prague, CZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631732,
+          -37.8142454
+        ]
+      },
+      "properties": {
+        "loc": "Melbourne, AU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4740613,
+          17.360589
+        ]
+      },
+      "properties": {
+        "loc": "Hyderabad, IN"
+      }
+    }
+  ]
+}
