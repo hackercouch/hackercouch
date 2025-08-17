@@ -5,7 +5,7 @@ OpenURI::Cache.cache_path = '_cache'
 
 module Jekyll
   class GeoJsonGenerator <  Generator
-    BASE_URL = 'http://nominatim.openstreetmap.org/search'
+    BASE_URL = 'https://api.geoapify.com/v1/geocode/search'
 
     def generate(site)
       result = Hash[
@@ -15,23 +15,18 @@ module Jekyll
 
       for couch in site.collections['couches'].docs
         data = couch.data
-        country = URI.encode_www_form_component data['country']
+        country = URI.encode_www_form_component data['country'].downcase
         city = URI.encode_www_form_component data['city']
-        # https://nominatim.org/release-docs/develop/api/Search/
-        # free-form search for the name
-        # filter by country
-        # output as json
-        # restrict to 1 response on the address layer, ignoring POIs, transit options etc
-        # and filter by "settlements" (state, cities, towns, villages, neighbourhoods etc)
-        url = BASE_URL + "?q=#{city}&countrycodes=#{country}&format=json&layer=address&featureType=settlement&limit=1"
-        puts url
+        # https://apidocs.geoapify.com/docs/geocoding/forward-geocoding/#api
+        api_key = site.config['GEOAPIFY_KEY'] || ENV['GEOAPIFY_KEY']
+        url = BASE_URL + "?filter=countrycode:#{country}&city=#{city}&type=city&limit=1&format=json&apiKey=#{api_key}"
         response = URI.open(url)
-        raise 'Invalid response from nominatim' if response.status[0] != '200'
+        raise "Invalid response from Geoapify CITY=(#{city})" if response.status[0] != '200'
         response = JSON.parse(response.read)
-
-        if response[0] then
-          lon = response[0]['lon']
-          lat = response[0]['lat']
+        if response.key?('results') and response['results'].size == 1 then
+          d = response['results'][0]
+          lon = d['lon']
+          lat = d['lat']
           loc = "#{data['city']}, #{data['country']}"
           result['features'] << Hash[
             'type'=> 'Feature',

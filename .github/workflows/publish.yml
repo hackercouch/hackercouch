@@ -25,6 +25,8 @@ jobs:
         NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     - name: Build website
       run: ./_script/cibuild
+      env:
+        GEOAPIFY_KEY: ${{ secrets.GEOAPIFY_KEY }}
     # Validating HTML with remote link validation
     # is always flaky, so we ignore if it fails
     - name: validate html
