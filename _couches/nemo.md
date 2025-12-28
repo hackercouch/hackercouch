@@ -5,11 +5,9 @@ mastodon: "https://tatooine.club/@nemo"
 email: me@captnemo.in
 website: https://captnemo.in
 reddit: vim_vs_emacs
-city: Bangalore
-country: IN
-region: Indiranagar
+city: Berlin
+country: DE
+region: Mitte
 ---
 
-We have a guest bedroom possibly available, depending on dates.
-
-We also have a cat, lots of boardgames, and fast internet.
+We have a guest bed and a few boardgames to offer.
