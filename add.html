@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How to manage your couch - Hackercouch</title>
+  <meta name="description" content="Hospitality for Hackers, by Hackers.">
+
+  <link rel="dns-prefetch" href="https://gravatar.com">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://hackercouch.com/add.html" data-proofer-ignore>
+  <!-- <link rel="alternate" type="application/rss+xml" title="Hackercouch" href="https://hackercouch.com/feed.xml" /> -->
+
+  <meta property="og:site_name" content="Hackercouch">
+  <meta property="og:title" content="How to manage your couch - Hackercouch">
+  <meta property="og:description" content="Hospitality for Hackers, by Hackers.">
+  <meta property="og:url" content="https://hackercouch.com/add.html" data-proofer-ignore>
+  <meta property="og:image" content="/img/share.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:title" content="How to manage your couch - Hackercouch">
+  <meta name="twitter:description" content="Hospitality for Hackers, by Hackers.">
+  <meta name="twitter:url" content="https://hackercouch.com/add.html" data-proofer-ignore>
+  <meta name="twitter:image" content="/img/share.png">
+  <meta name="twitter:site" content="hackercouch">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Hackercouch</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/add.html">How to manage your couch</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/disclaimer/">Disclaimer</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/related.html">Related Projects</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">How to manage your couch</h1>
+  </header>
+
+  <article class="post-content">
+    <h3 id="add-your-couch">Add your couch</h3>
+
+<ol>
+  <li>Fork <a href="https://github.com/hackercouch/hackercouch" title="Click the Fork button">this repo</a></li>
+  <li>Create a file in the <code class="language-plaintext highlighter-rouge">_couches</code> directory called NICKNAME.md. Use the basic template provided below</li>
+  <li>Commit</li>
+  <li>File a Pull Request</li>
+</ol>
+
+<h3 id="marking-unavailability">Marking unavailability</h3>
+
+<p>When you are unavailable, just delete your NICK.md and send a new Pull
+Request. Later, you can <code class="language-plaintext highlighter-rouge">git revert</code> to make yourself available again.</p>
+
+<h3 id="template">Template</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Your Name</span> <span class="c1">#optional</span>
+<span class="na">city</span><span class="pi">:</span> <span class="s">your_city</span> <span class="c1">#required</span>
+<span class="na">country</span><span class="pi">:</span> <span class="s">ISO 3166-1 alpha-2 country code (2 characters, uppercase)</span> <span class="c1">#required</span>
+<span class="na">region</span><span class="pi">:</span> <span class="s">region in your city</span> <span class="c1">#optional</span>
+<span class="na">email</span><span class="pi">:</span> <span class="s">email_address</span> <span class="c1">#required</span>
+<span class="na">github</span><span class="pi">:</span> <span class="s">github_username</span>
+<span class="na">twitter</span><span class="pi">:</span> <span class="s">twitter_username</span>
+<span class="na">website</span><span class="pi">:</span> <span class="s">http://your-website.com</span>
+<span class="na">facebook</span><span class="pi">:</span> <span class="s">your_facebook_username</span>
+<span class="na">reddit</span><span class="pi">:</span> <span class="s">reddit_handle</span>
+<span class="na">couchsurfing</span><span class="pi">:</span> <span class="s">couchsurfing_username</span>
+<span class="na">bewelcome</span><span class="pi">:</span> <span class="s">bewelcome_username</span>
+<span class="na">trustroots</span><span class="pi">:</span> <span class="s">trustroots_username</span>
+<span class="na">warmshowers</span><span class="pi">:</span> <span class="s">warmshowers_user_id</span>
+<span class="nn">---</span>
+
+Extra info you might want to provide about your couch.
+Whether you have internet connectivity, and so on.
+
+<span class="gs">**Note**</span>: This accepts markdown
+</code></pre></div></div>
+
+<p>Note that only these fields are required:</p>
+
+<ul>
+  <li>country</li>
+  <li>city</li>
+  <li>email</li>
+</ul>
+
+<p>If you do not provide a <code class="language-plaintext highlighter-rouge">name</code>, the filename will be used as one.</p>
+
+<p>We pull your avatar from <a href="https://gravatar.com/">Gravatar.com</a></p>
+
+<h3 id="build">Build</h3>
+
+<p>The CI build runs <code class="language-plaintext highlighter-rouge">html-proofer</code> which checks the validity of all http links,
+so they need to be working fine. The country code must also be correct as per
+the <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a> list.
+It should be a 2 character country code.</p>
+
+<p>Once a build passes (and the branch is master), our CI scripts will auto-commit
+and push the compiled site to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch, publishing the result to <code class="language-plaintext highlighter-rouge">hackercouch.com</code>
+in a few minutes.</p>
+
+<h4 id="merge">Merge</h4>
+
+<p>Once you have filed a Pull-Request, I will merge your commit and your
+listing will be live on hackercouch.com. <code class="language-plaintext highlighter-rouge">master</code> contains the latest
+source for the website, and your pull requests must use <code class="language-plaintext highlighter-rouge">master</code> as the base.
+<code class="language-plaintext highlighter-rouge">gh-pages</code> is automatically pushed every time a new commit is made on master.</p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">Hackercouch</h2> -->
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Hackercouch</li>
+          <li>73 Hackers, 32 Countries</li>
+          <li><a href="/map.html">View cities on map</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-1">
+        <ul class="social-media-list">
+          <li>
+            <span class="socicon socicon-github">
+            </span>
+            <a href="https://github.com/hackercouch/hackercouch">
+                <span class="username">source</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-1">
+        <p class="text">Hospitality for Hackers, by Hackers.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
